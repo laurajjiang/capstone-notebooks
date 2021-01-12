@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Title | fastpages</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://laurajjiang.github.io/capstone-notebooks/2021/01/10/Text-Classification.html" />
+<meta property="og:url" content="https://laurajjiang.github.io/capstone-notebooks/2021/01/10/Text-Classification.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-10T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","url":"https://laurajjiang.github.io/capstone-notebooks/2021/01/10/Text-Classification.html","@type":"BlogPosting","headline":"Title","dateModified":"2021-01-10T00:00:00-06:00","datePublished":"2021-01-10T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://laurajjiang.github.io/capstone-notebooks/2021/01/10/Text-Classification.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/capstone-notebooks/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://laurajjiang.github.io/capstone-notebooks/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/capstone-notebooks/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/capstone-notebooks/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/capstone-notebooks/about/">About Me</a><a class="page-link" href="/capstone-notebooks/search/">Search</a><a class="page-link" href="/capstone-notebooks/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-10T00:00:00-06:00" itemprop="datePublished">
+        Jan 10, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/laurajjiang/capstone-notebooks/tree/master/_notebooks/2021-01-10-Text Classification.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/capstone-notebooks/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/laurajjiang/capstone-notebooks/master?filepath=_notebooks%2F2021-01-10-Text+Classification.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/capstone-notebooks/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/laurajjiang/capstone-notebooks/blob/master/_notebooks/2021-01-10-Text Classification.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/capstone-notebooks/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-01-10-Text Classification.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&gt;</span> <span class="s2">&quot;Chapter 1 - start out with sentiment text classification.&quot;</span>
+
+<span class="o">-</span> <span class="n">toc</span><span class="p">:</span> <span class="n">true</span>
+<span class="o">-</span> <span class="n">branch</span><span class="p">:</span> <span class="n">master</span>
+<span class="o">-</span> <span class="n">badges</span><span class="p">:</span> <span class="n">false</span>
+<span class="o">-</span> <span class="n">comments</span><span class="p">:</span> <span class="n">false</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Text classification is the process of assigning tags or categories to text according to its content. It’s one of the fundamental tasks in natural language processing.</p>
+<p>The text we wanna classify is given as input to an algorithm, the algorithm will then analyze the text’s content, and then categorize the input as one of the tags or categories previously given.</p>
+<p><strong>Input → Classifying Algorithm → Classification of Input</strong></p>
+<p>Real life examples:</p>
+<ul>
+<li>sentiment analysis: how does the writer of the sentence feel about what they are writing about, do they think positively or negatively of the subject? Ex. restaurant reviews topic labeling: given sentences and a set of topics, which topic does this sentence fall under? Ex. is this essay about history? Math? etc? spam detection Ex. Email filtering: is this email a real important email or spam?</li>
+</ul>
+<p>Example. A restaurant wants to evaluate their ratings but don’t want to read through all of them. Therefore, they wanna use a computer algorithm to do all their work. They simply want to know if the customer’s review is positive or negative.</p>
+<p>Here’s an example of a customer’s review and a simple way an algorithm could classify their review.</p>
+<p>Input: “The food here was too salty and too expensive”</p>
+<p>Algorithm: Goes through every word in the sentence and counts how many positive words and how many negative words are in the sentence.</p>
+
+<pre><code>    “The, food, here, was, too, and” are all neutral words
+
+    “Salty, expensive” are negative words.
+
+    Negative words: 2
+    Positive words: 0</code></pre>
+<p>Classification: Negative Review, because there are more negative words (2) than positive (0).</p>
+<p>However, this algorithm obviously doesn’t work in a lot of cases.</p>
+<p>For example, “The food here was good, not expensive and not salty” would be classified as negative but it’s actually a positive review.</p>
+<p>Language and text can get very complicated which makes creating these algorithms difficult. Some things that make language difficult could be words that have multiple meanings, negation words (words such as not), slang, etc.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Importing-Data">Importing Data<a class="anchor-link" href="#Importing-Data"> </a></h2><p>This section of code is to import any necessary Python libraries that we'll need for the rest of this notebook, as well as set up the data that we'll be using.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip3 install seaborn
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">string</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">sparse</span>
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sn</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span> 
+
+<span class="c1"># Our two files that contain our data, split up into a training set and a testing set.</span>
+
+<span class="n">trainingFile</span> <span class="o">=</span> <span class="s2">&quot;trainingSet.txt&quot;</span>
+<span class="n">testingFile</span> <span class="o">=</span> <span class="s2">&quot;testSet.txt&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting seaborn
+  Using cached https://files.pythonhosted.org/packages/68/ad/6c2406ae175f59ec616714e408979b674fe27b9587f79d59a528ddfbcd5b/seaborn-0.11.1-py3-none-any.whl
+Requirement already satisfied: matplotlib&gt;=2.2 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from seaborn) (3.1.1)
+Requirement already satisfied: numpy&gt;=1.15 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from seaborn) (1.17.1)
+Requirement already satisfied: scipy&gt;=1.0 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from seaborn) (1.3.2)
+Requirement already satisfied: pandas&gt;=0.23 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from seaborn) (0.25.3)
+Requirement already satisfied: cycler&gt;=0.10 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib&gt;=2.2-&gt;seaborn) (0.10.0)
+Requirement already satisfied: python-dateutil&gt;=2.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib&gt;=2.2-&gt;seaborn) (2.8.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,&gt;=2.0.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib&gt;=2.2-&gt;seaborn) (2.4.5)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from matplotlib&gt;=2.2-&gt;seaborn) (1.1.0)
+Requirement already satisfied: pytz&gt;=2017.2 in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from pandas&gt;=0.23-&gt;seaborn) (2019.3)
+Requirement already satisfied: six in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from cycler&gt;=0.10-&gt;matplotlib&gt;=2.2-&gt;seaborn) (1.12.0)
+Requirement already satisfied: setuptools in /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages (from kiwisolver&gt;=1.0.1-&gt;matplotlib&gt;=2.2-&gt;seaborn) (39.0.1)
+Installing collected packages: seaborn
+Successfully installed seaborn-0.11.1
+<span class="ansi-yellow-fg">You are using pip version 10.0.1, however version 20.3.3 is available.
+You should consider upgrading via the &#39;pip install --upgrade pip&#39; command.</span>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Let's take a peek at what these text files look like:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Sample sentences:
+[&#39;Wow... Loved this place.&#39;,
+ &#39;Not tasty and the texture was just nasty.&#39;,
+ &#39;Stopped by during the late May bank holiday off Rick Steve recommendation &#39;
+ &#39;and loved it.&#39;,
+ &#39;The selection on the menu was great and so were the prices.&#39;,
+ &#39;Now I am getting angry and I want my damn pho.&#39;,
+ &#34;Honeslty it didn&#39;t taste THAT fresh.)&#34;,
+ &#39;The potatoes were like rubber and you could tell they had been made up ahead &#39;
+ &#39;of time being kept under a warmer.&#39;,
+ &#39;The fries were great too.&#39;,
+ &#39;A great touch.&#39;,
+ &#39;Service was very prompt.&#39;]
+Corresponding sentiments:
+[1, 0, 1, 1, 0, 0, 0, 1, 1, 1]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Below is a definition of getData, a basic function to pull from the <code>trainingSet.txt</code> and <code>testSet.txt</code>. We open the file, create temporary arrays, and pull from the file line by line.</p>
+<p>Open the cell if you'd like to peek into what the function looks like.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description" open="">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">getData</span><span class="p">(</span><span class="n">fileName</span><span class="p">):</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">fileName</span><span class="p">)</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+
+    <span class="n">sentences</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">sentiments</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">sentence</span><span class="p">,</span> <span class="n">sentiment</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="n">sentences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sentence</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+        <span class="n">sentiments</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">sentiment</span><span class="o">.</span><span class="n">strip</span><span class="p">()))</span> <span class="c1"># Sentiment in {0,1}</span>
+
+    <span class="k">return</span> <span class="n">sentences</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">sentiments</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainingSentences</span><span class="p">,</span> <span class="n">trainingLabels</span> <span class="o">=</span> <span class="n">getData</span><span class="p">(</span><span class="n">trainingFile</span><span class="p">)</span>
+<span class="n">testingSentences</span><span class="p">,</span> <span class="n">testingLabels</span> <span class="o">=</span> <span class="n">getData</span><span class="p">(</span><span class="n">testingFile</span><span class="p">)</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pre-Processing-Data">Pre-Processing Data<a class="anchor-link" href="#Pre-Processing-Data"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">preProcess</span><span class="p">(</span><span class="n">sentences</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">cleanText</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+        <span class="c1"># Make lower case</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+        <span class="c1"># Replace non-text characters with spaces</span>
+        <span class="n">nonText</span> <span class="o">=</span> <span class="n">string</span><span class="o">.</span><span class="n">punctuation</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">translate</span><span class="p">(</span><span class="nb">str</span><span class="o">.</span><span class="n">maketrans</span><span class="p">(</span><span class="n">nonText</span><span class="p">,</span> <span class="s1">&#39; &#39;</span> <span class="o">*</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">nonText</span><span class="p">))))</span>
+
+        <span class="c1"># Tokenize</span>
+        <span class="n">words</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">words</span>
+
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">cleanText</span><span class="p">,</span> <span class="n">sentences</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainingTokens</span> <span class="o">=</span> <span class="n">preProcess</span><span class="p">(</span><span class="n">trainingSentences</span><span class="p">)</span>
+<span class="n">testingTokens</span> <span class="o">=</span> <span class="n">preProcess</span><span class="p">(</span><span class="n">testingSentences</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Getting-Data-and-Setting-it-Up">Getting Data and Setting it Up<a class="anchor-link" href="#Getting-Data-and-Setting-it-Up"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">getVocab</span><span class="p">(</span><span class="n">sentences</span><span class="p">):</span>
+    <span class="n">vocab</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+            <span class="n">vocab</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">vocab</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vocabulary</span> <span class="o">=</span> <span class="n">getVocab</span><span class="p">(</span><span class="n">trainingTokens</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">clicked</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">vocabulary</span><span class="p">)</span>
+
+<span class="n">button_download</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;Click to see Vocab&#39;</span><span class="p">)</span>   
+<span class="n">button_download</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">clicked</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">button_download</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">createVector</span><span class="p">(</span><span class="n">vocab</span><span class="p">,</span> <span class="n">sentences</span><span class="p">):</span>
+    <span class="n">indices</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">wordOccurrences</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">sentenceIndex</span><span class="p">,</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sentences</span><span class="p">):</span>
+        <span class="n">alreadyCounted</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span> <span class="c1"># Keep track of words so we don&#39;t double count.</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">word</span> <span class="ow">in</span> <span class="n">vocab</span><span class="p">)</span> <span class="ow">and</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">alreadyCounted</span><span class="p">:</span>
+                <span class="c1"># If we just want {0,1} for the presence of the word (bernoulli NB),</span>
+                <span class="c1"># only count each word once. Otherwise (multinomial NB) count each</span>
+                <span class="c1"># occurrence of the word.</span>
+                
+            
+                <span class="c1">#which sentence, which word</span>
+                <span class="n">indices</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">sentenceIndex</span><span class="p">,</span> <span class="n">vocab</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">word</span><span class="p">)))</span>
+                
+                <span class="n">wordOccurrences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+                <span class="n">alreadyCounted</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+
+    <span class="c1"># Unzip</span>
+    <span class="n">rows</span> <span class="o">=</span> <span class="p">[</span><span class="n">row</span> <span class="k">for</span> <span class="n">row</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">]</span>
+    <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">column</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">]</span>
+
+    <span class="n">sentenceVectors</span> <span class="o">=</span> <span class="n">sparse</span><span class="o">.</span><span class="n">csr_matrix</span><span class="p">((</span><span class="n">wordOccurrences</span><span class="p">,</span> <span class="p">(</span><span class="n">rows</span><span class="p">,</span> <span class="n">columns</span><span class="p">)),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">sentences</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">vocab</span><span class="p">)))</span>
+
+    <span class="k">return</span> <span class="n">sentenceVectors</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">training</span> <span class="o">=</span> <span class="n">createVector</span><span class="p">(</span><span class="n">vocabulary</span><span class="p">,</span> <span class="n">trainingTokens</span><span class="p">)</span>
+<span class="n">testing</span> <span class="o">=</span> <span class="n">createVector</span><span class="p">(</span><span class="n">vocabulary</span><span class="p">,</span> <span class="n">testingTokens</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+
+<span class="k">class</span> <span class="nc">NaiveBayesClassifier</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">priorPositive</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># Probability that a review is positive</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">priorNegative</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># Probability that a review is negative</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">positiveLogConditionals</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">negativeLogConditionals</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">computePriorProbabilities</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">labels</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">priorPositive</span> <span class="o">=</span> <span class="nb">len</span><span class="p">([</span><span class="n">y</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">labels</span> <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">1</span><span class="p">])</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">priorNegative</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">priorPositive</span>
+
+    <span class="k">def</span> <span class="nf">computeConditionProbabilities</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">examples</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">dirichlet</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">vocabularyLength</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">shape</span>
+
+        <span class="c1"># How many of each word are there in all of the positive reviews</span>
+        <span class="n">positiveCounts</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">dirichlet</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">vocabularyLength</span><span class="p">)])</span>
+        <span class="c1"># How many of each word are there in all of the negative reviews</span>
+        <span class="n">negativeCounts</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">dirichlet</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">vocabularyLength</span><span class="p">)])</span>
+
+        <span class="c1"># Here&#39;s how to iterate through a spare array</span>
+        <span class="n">coordinates</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">tocoo</span><span class="p">()</span>  <span class="c1"># Converted to a `coordinate` format</span>
+        <span class="k">for</span> <span class="n">exampleIndex</span><span class="p">,</span> <span class="n">featureIndex</span><span class="p">,</span> <span class="n">observationCount</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">coordinates</span><span class="o">.</span><span class="n">row</span><span class="p">,</span> <span class="n">coordinates</span><span class="o">.</span><span class="n">col</span><span class="p">,</span> <span class="n">coordinates</span><span class="o">.</span><span class="n">data</span><span class="p">):</span>
+            <span class="c1"># For sentence {exampleIndex}, for word at index {featureIndex}, the word occurred {observationCount} times</span>
+            <span class="k">if</span> <span class="n">labels</span><span class="p">[</span><span class="n">exampleIndex</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">positiveCounts</span><span class="p">[</span><span class="n">featureIndex</span><span class="p">]</span> <span class="o">+=</span> <span class="n">observationCount</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">negativeCounts</span><span class="p">[</span><span class="n">featureIndex</span><span class="p">]</span> <span class="o">+=</span> <span class="n">observationCount</span>
+
+        <span class="c1"># [!] Make sure to use the logs of the probabilities</span>
+        <span class="n">positiveReviewCount</span> <span class="o">=</span> <span class="nb">len</span><span class="p">([</span><span class="n">y</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">labels</span> <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">1</span><span class="p">])</span>
+        <span class="n">negativeReviewCount</span> <span class="o">=</span> <span class="nb">len</span><span class="p">([</span><span class="n">y</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">labels</span> <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">])</span>
+
+        <span class="c1"># We are using bernoulli NB</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">positiveLogConditionals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">positiveCounts</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">positiveReviewCount</span> <span class="o">+</span> <span class="n">dirichlet</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">negativeLogConditionals</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">negativeCounts</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">negativeReviewCount</span> <span class="o">+</span> <span class="n">dirichlet</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
+
+        <span class="c1"># This works for multinomial NB</span>
+        <span class="c1"># self.positiveLogConditionals = np.log(positiveCounts) - np.log(sum(positiveCounts))</span>
+        <span class="c1"># self.negativeLogConditionals = np.log(negativeCounts) - np.log(sum(negativeCounts))</span>
+
+    <span class="c1"># Calculate all of the parameters for making a naive bayes classification</span>
+    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trainingExamples</span><span class="p">,</span> <span class="n">trainingLabels</span><span class="p">):</span>
+        <span class="c1"># Compute the probability of positive/negative review</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">computePriorProbabilities</span><span class="p">(</span><span class="n">trainingLabels</span><span class="p">)</span>
+
+        <span class="c1"># Compute</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">computeConditionProbabilities</span><span class="p">(</span><span class="n">trainingExamples</span><span class="p">,</span> <span class="n">trainingLabels</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">computeLogPosteriors</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sentence</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">priorPositive</span><span class="p">)</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">sentence</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">positiveLogConditionals</span><span class="p">)),</span>
+                <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">priorNegative</span><span class="p">)</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">sentence</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">negativeLogConditionals</span><span class="p">)))</span>
+
+    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">examples</span><span class="p">):</span>
+        <span class="n">totalReviewCount</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">shape</span>
+
+        <span class="n">predictions</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">totalReviewCount</span><span class="p">)])</span>
+
+        <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">examples</span><span class="p">):</span>
+            <span class="n">logProbabilityPositive</span><span class="p">,</span> <span class="n">logProbabilityNegative</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">computeLogPosteriors</span><span class="p">(</span>
+                <span class="n">sentence</span><span class="p">)</span>
+            <span class="n">predictions</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">logProbabilityPositive</span> <span class="o">&gt;</span> <span class="n">logProbabilityNegative</span> <span class="k">else</span> <span class="mi">0</span>
+
+        <span class="k">return</span> <span class="n">predictions</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nbClassifier</span> <span class="o">=</span> <span class="n">NaiveBayesClassifier</span><span class="p">()</span>
+<span class="n">nbClassifier</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">training</span><span class="p">,</span> <span class="n">trainingLabels</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">predictions</span><span class="p">,</span> <span class="n">actual</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">((</span><span class="n">predictions</span> <span class="o">==</span> <span class="n">actual</span><span class="p">))</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">actual</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainingPredictions</span> <span class="o">=</span> <span class="n">nbClassifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">training</span><span class="p">)</span>
+<span class="n">testingPredictions</span> <span class="o">=</span> <span class="n">nbClassifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">testing</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy_button</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Training accuracy:&quot;</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">trainingPredictions</span><span class="p">,</span> <span class="n">trainingLabels</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Testing accuracy:&quot;</span><span class="p">,</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">testingPredictions</span><span class="p">,</span> <span class="n">testingLabels</span><span class="p">))</span>
+
+<span class="n">button_download</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span> <span class="o">=</span> <span class="s1">&#39;Model Accuracy&#39;</span><span class="p">)</span>   
+<span class="n">button_download</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">accuracy_button</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">button_download</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Actual&#39;</span><span class="p">:</span>    <span class="n">testingLabels</span><span class="p">,</span>
+        <span class="s1">&#39;Predicted&#39;</span><span class="p">:</span> <span class="n">testingPredictions</span>
+        <span class="p">}</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Actual&#39;</span><span class="p">,</span><span class="s1">&#39;Predicted&#39;</span><span class="p">])</span>
+<span class="n">confusion_matrix</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Actual&#39;</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Predicted&#39;</span><span class="p">],</span> <span class="n">rownames</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Actual&#39;</span><span class="p">],</span> <span class="n">colnames</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Predicted&#39;</span><span class="p">])</span>
+
+<span class="n">sn</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;YlGnBu&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Confusion Matrix of Testing&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {"04f327f8729c4dfb8064560e564bc0c6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonStyleModel", "state": {}}, "527b16c6484f41a8bbea8b6f91ee4137": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonStyleModel", "state": {}}, "55400c05e9674a448f4e1fca689799eb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonStyleModel", "state": {}}, "6d2c241530244303bf40c0e3b075e4ce": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "876403260ccd4a0a8d22c264a6912605": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "91e9ccd185a845428527d57ccb73fb26": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "9f021bc8541a4b19862488ae989a54bf": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonModel", "state": {"description": "Model Accuracy", "layout": "IPY_MODEL_dd9515246a5c4b2c8378751eaa36df79", "style": "IPY_MODEL_04f327f8729c4dfb8064560e564bc0c6"}}, "9f1a03a9c53344238bee47b914fa8692": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonModel", "state": {"description": "Click to see Vocab", "layout": "IPY_MODEL_876403260ccd4a0a8d22c264a6912605", "style": "IPY_MODEL_527b16c6484f41a8bbea8b6f91ee4137"}}, "dd9515246a5c4b2c8378751eaa36df79": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {}}, "eec603a2a46d48bfbb6570ddefcc6477": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonModel", "state": {"description": "Model Accuracy", "layout": "IPY_MODEL_91e9ccd185a845428527d57ccb73fb26", "style": "IPY_MODEL_f8efef0d43ab4f32b7ab103f009ffe3b"}}, "f7141bc2f4b84b2daf37332f22af3d8f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonModel", "state": {"description": "Click to see Vocab", "layout": "IPY_MODEL_6d2c241530244303bf40c0e3b075e4ce", "style": "IPY_MODEL_55400c05e9674a448f4e1fca689799eb"}}, "f8efef0d43ab4f32b7ab103f009ffe3b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ButtonStyleModel", "state": {}}}, "version_major": 2, "version_minor": 0}
+</script>
+
+
+
+  </div><a class="u-url" href="/capstone-notebooks/2021/01/10/Text-Classification.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/capstone-notebooks/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/capstone-notebooks/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/capstone-notebooks/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/capstone-notebooks/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/capstone-notebooks/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
