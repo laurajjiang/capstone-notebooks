@@ -4,8 +4,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.8488339527336554e-06,
-            4.964037181300989e-06
+            0.8736467787344862,
+            0.8852610407892545
         ],
         "text": "Crust is not good."
     },
@@ -14,8 +14,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.883351024023754e-07,
-            9.573500278223334e-06
+            0.8619180523134238,
+            0.893599820791279
         ],
         "text": "Would not go back."
     },
@@ -24,8 +24,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.7999168034187512e-08,
-            2.375379768280977e-06
+            0.8239066657794049,
+            0.8759029567160805
         ],
         "text": "I was shocked because no signs indicate cash only."
     },
@@ -34,8 +34,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0011741517779822342,
-            0.0003313566049919287
+            0.950257678736024,
+            0.9385985931984417
         ],
         "text": "The food, amazing."
     },
@@ -44,8 +44,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.275487941826039e-06,
-            3.8781540478914e-07
+            0.8761116167201056,
+            0.8528920931748788
         ],
         "text": "Service is also cute."
     },
@@ -54,8 +54,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.298640967512182e-08,
-            5.0568753924479226e-08
+            0.8335308190361568,
+            0.8270269056707035
         ],
         "text": "I could care less... The interior is just beautiful."
     },
@@ -64,8 +64,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0030990325377317123,
-            0.0017785411009532388
+            0.9617787777192025,
+            0.9599331473299992
         ],
         "text": "So they performed."
     },
@@ -74,8 +74,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.967776758495396e-13,
-            3.0132003417454135e-16
+            0.6940459306957313,
+            0.5865757866736486
         ],
         "text": "This hole in the wall has great Mexican street tacos, and friendly staff."
     },
@@ -84,8 +84,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.1287164613781851e-08,
-            6.083027054876501e-08
+            0.8131219743081367,
+            0.8293726245225372
         ],
         "text": "The worst was the salmon sashimi."
     },
@@ -94,8 +94,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0316284793670489e-18,
-            9.110656880663436e-19
+            0.5387198357692409,
+            0.5129196023005461
         ],
         "text": "Also there are combos like a burger, fries, and beer for 23 which is a decent deal."
     },
@@ -104,8 +104,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            0.0003660051245428997,
-            0.00040567707428971355
+            0.9364204754074252,
+            0.9411678796498761
         ],
         "text": "This was like the final blow!"
     },
@@ -114,8 +114,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            7.471369230333191e-12,
-            4.0219275303798616e-11
+            0.7262239045811716,
+            0.7364154832116594
         ],
         "text": "I found this place by accident and I could not be happier."
     },
@@ -124,8 +124,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.743635002116721e-22,
-            1.030662775004854e-21
+            0.44099738475036343,
+            0.42678152435436867
         ],
         "text": "seems like a good quick place to grab a bite of some familiar pub food, but do yourself a favor and look elsewhere."
     },
@@ -134,8 +134,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.845574621686008e-06,
-            5.687959270240718e-07
+            0.8823405454766469,
+            0.8577547418371714
         ],
         "text": "Ample portions and good prices."
     },
@@ -144,8 +144,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            0.04772044088176354,
-            0.041743405840020106
+            0.9942366510900671,
+            0.9999999999999999
         ],
         "text": "Service sucks."
     },
@@ -154,8 +154,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.3953239365530494e-11,
-            1.3366975602687805e-10
+            0.7336387806973997,
+            0.7516642692595585
         ],
         "text": "Frozen pucks of disgust, with some of the worst people behind the register."
     },
@@ -164,8 +164,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0249191428010624e-12,
-            1.2302361050621665e-11
+            0.7026430517987039,
+            0.7213758171028091
         ],
         "text": "It's too bad the food is so damn generic."
     },
@@ -174,8 +174,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.659715494922474e-14,
-            3.979941336065334e-14
+            0.6733091815865238,
+            0.6485781540124156
         ],
         "text": "If you want a sandwich just go to any Firehouse!!!!!"
     },
@@ -184,8 +184,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.4342814411381074e-20,
-            6.370720243715369e-22
+            0.4942441510972323,
+            0.4206735760028788
         ],
         "text": "My side Greek salad with the Greek dressing was so tasty, and the pita and hummus was very refreshing."
     },
@@ -194,8 +194,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.911913475555509e-05,
-            5.274289505132295e-06
+            0.9063725812809719,
+            0.8860307593264863
         ],
         "text": "Their chow mein is so good!"
     },
@@ -204,8 +204,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            0.00024657187337626915,
-            0.0005301705679870865
+            0.9317315969585995,
+            0.9445659789759905
         ],
         "text": "The portion was huge!"
     },
@@ -214,8 +214,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.458244918011744e-13,
-            3.6690409605684673e-16
+            0.6951636211764167,
+            0.5890760710139724
         ],
         "text": "Loved it...friendly servers, great food, wonderful and imaginative menu."
     },
@@ -224,8 +224,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.371442694470057e-23,
-            2.7638960210028226e-22
+            0.4216388715717102,
+            0.4100711211254282
         ],
         "text": "The Heart Attack Grill in downtown Vegas is an absolutely flat-lined excuse for a restaurant."
     },
@@ -234,8 +234,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.0791817945836187e-25,
-            4.3426023362074924e-24
+            0.3603667005815405,
+            0.3573384043947918
         ],
         "text": "The salad had just the right amount of sauce to not over power the scallop, which was perfectly cooked."
     },
@@ -244,8 +244,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.20329307231981e-09,
-            8.528541726071807e-08
+            0.8013960578680154,
+            0.833662963325899
         ],
         "text": "The ripped banana was not only ripped, but petrified and tasteless."
     },
@@ -254,8 +254,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.318289920114021e-13,
-            1.129229387018537e-13
+            0.6948552722963762,
+            0.6618187089555998
         ],
         "text": "Great food and service, huge portions and they give a military discount."
     },
@@ -264,8 +264,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.8857271534586774e-17,
-            1.1526282476450636e-17
+            0.5732134281672814,
+            0.5451403182565455
         ],
         "text": "Update.....went back for a second time and it was still just as amazing"
     },
@@ -274,8 +274,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.0168920149982506e-15,
-            6.128695232562895e-14
+            0.6416534602255529,
+            0.6540594068941993
         ],
         "text": "We got the food and apparently they have never heard of salt and the batter on the fish was chewy."
     },
@@ -284,8 +284,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.669060267711126e-19,
-            3.938217309885547e-18
+            0.522670594978183,
+            0.5315055602968315
         ],
         "text": "The deal included 5 tastings and 2 drinks, and Jeff went above and beyond what we expected."
     },
@@ -294,8 +294,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.541207459850598e-08,
-            1.2190681749651302e-08
+            0.8168195401001707,
+            0.808964123835901
         ],
         "text": "- Really, really good rice, all the time."
     },
@@ -304,8 +304,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.311611312902521e-05,
-            4.507523047663481e-05
+            0.9036320301592132,
+            0.9132708893353151
         ],
         "text": "The service was meh."
     },
@@ -314,8 +314,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.546057995573671e-21,
-            2.596516850366867e-18
+            0.47137630875233005,
+            0.5262167542563785
         ],
         "text": "It took over 30 min to get their milkshake, which was nothing more than chocolate milk."
     },
@@ -324,8 +324,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.3046628762264754e-27,
-            8.421053687014471e-25
+            0.29550615638809474,
+            0.33651208518855136
         ],
         "text": "I guess I should have known that this place would suck, because it is inside of the Excalibur, but I didn't use my common sense."
     },
@@ -334,8 +334,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.5971747638549442e-11,
-            1.6999609841294326e-10
+            0.735242636058228,
+            0.7547165411124366
         ],
         "text": "2 times - Very Bad Customer Service !"
     },
@@ -344,8 +344,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.742691319128259e-15,
-            2.207739380827964e-15
+            0.6388286208763342,
+            0.6118614545689791
         ],
         "text": "The sweet potato fries were very good and seasoned well."
     },
@@ -354,8 +354,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.6459383599322442e-22,
-            1.5452939436762579e-22
+            0.4405669755893399,
+            0.40268905038235026
         ],
         "text": "Today is the second time I've been to their lunch buffet and it was pretty good."
     },
@@ -364,8 +364,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.8433219653294493e-21,
-            1.1197605818013593e-19
+            0.4687544903148453,
+            0.4863036177446328
         ],
         "text": "walked in and the place smelled like an old grease trap and only 2 others there eating."
     },
@@ -374,8 +374,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.5762747070612613e-16,
-            4.302601860982023e-16
+            0.5984190481022449,
+            0.5910984864173171
         ],
         "text": "The pan cakes everyone are raving about taste like a sugary disaster tailored to the palate of a six year old."
     },
@@ -384,8 +384,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.961764218006403e-11,
-            2.0831650289903117e-10
+            0.7376833588113786,
+            0.7572975181888271
         ],
         "text": "The poor batter to meat ratio made the chicken tenders very unsatisfying."
     },
@@ -394,8 +394,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.5061507090693753e-10,
-            4.0748949317238844e-11
+            0.7618795155148124,
+            0.7365815998539027
         ],
         "text": "All I have to say is the food was amazing!!!"
     },
@@ -404,8 +404,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.2375632271110917e-06,
-            5.921530761384199e-08
+            0.8688817252396613,
+            0.8290309949225232
         ],
         "text": "Everything was fresh and delicious!"
     },
@@ -414,8 +414,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.326368457253545e-17,
-            8.050553769055966e-15
+            0.5893240314256102,
+            0.6282877860175854
         ],
         "text": "Never been to Hard Rock Casino before, WILL NEVER EVER STEP FORWARD IN IT AGAIN!"
     },
@@ -424,8 +424,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.416505720899396e-10,
-            5.190952290823827e-09
+            0.7770728322390184,
+            0.7981244550456963
         ],
         "text": "say bye bye to your tip lady!"
     },
@@ -434,8 +434,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.277650671889778e-09,
-            2.2205740355190727e-08
+            0.8016042196465272,
+            0.8165779282429766
         ],
         "text": "We'll never go again."
     },
@@ -444,8 +444,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            0.00046601993048597237,
-            0.0004828618373628703
+            0.9392882273528625,
+            0.9433792627707905
         ],
         "text": "Food arrived quickly!"
     },
@@ -454,8 +454,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.0567800291554446e-05,
-            0.0002616756742714378
+            0.9150663480231325,
+            0.9356010930942543
         ],
         "text": "It was not good."
     },
@@ -464,8 +464,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.215430765319473e-13,
-            3.088828097358389e-13
+            0.6984766874275907,
+            0.6745946095730385
         ],
         "text": "On the up side, their cafe serves really good food."
     },
@@ -474,8 +474,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.2879946101221087e-22,
-            3.362958038140452e-25
+            0.4320207454363769,
+            0.32485781989156026
         ],
         "text": "I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious."
     },
@@ -484,8 +484,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.910665827361199e-13,
-            4.516662668361523e-12
+            0.6876999322570208,
+            0.7086537303977859
         ],
         "text": "This is one of the better buffets that I have been to."
     },
@@ -494,8 +494,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.07754571643286573,
-            0.027828937226680065
+            1.0,
+            0.994852025454995
         ],
         "text": "Sooooo good!!"
     },
@@ -504,8 +504,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.2621373117328412e-05,
-            1.4694378451461159e-05
+            0.8964485764705477,
+            0.8990398267887391
         ],
         "text": "Check it out."
     },
@@ -514,8 +514,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.358892955259238e-06,
-            3.893983248086869e-06
+            0.8699919510423483,
+            0.8821785066896078
         ],
         "text": "It was pretty gross!"
     },
@@ -524,8 +524,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.999910860805816e-08,
-            7.44421010002583e-08
+            0.8247256639041565,
+            0.8319364744968304
         ],
         "text": "I've had better atmosphere."
     },
@@ -534,8 +534,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.745717397267777e-16,
-            6.801687376158905e-15
+            0.6200447754095815,
+            0.6261475405287025
         ],
         "text": "Kind of hard to mess up a steak but they did."
     },
@@ -544,8 +544,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.82491774698445e-23,
-            3.587954552448752e-21
+            0.42448172685536234,
+            0.44261884659932615
         ],
         "text": "Although I very much liked the look and sound of this place, the actual experience was a bit disappointing."
     },
@@ -554,8 +554,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.660719454374516e-16,
-            1.2630936972069195e-14
+            0.6046337764105425,
+            0.6340063795682804
         ],
         "text": "Worst service to boot, but that is the least of their worries."
     },
@@ -564,8 +564,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.9487995153482794e-08,
-            1.3819396315394153e-09
+            0.8196049838222935,
+            0.7813215802624964
         ],
         "text": "Service was fine and the waitress was friendly."
     },
@@ -574,8 +574,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            9.776344753196645e-32,
-            3.6274902317183326e-30
+            0.18274689904977037,
+            0.17964571378203031
         ],
         "text": "The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten."
     },
@@ -584,8 +584,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.6613871052402157e-27,
-            1.0288630686881395e-29
+            0.29837541730113337,
+            0.19288176148764646
         ],
         "text": "We thought you'd have to venture further away to get good sushi, but this place really hit the spot that night."
     },
@@ -594,8 +594,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.5497611892486206e-05,
-            1.919686253706244e-05
+            0.9087238225678569,
+            0.9024333621437398
         ],
         "text": "Phenomenal food, service and ambiance."
     },
@@ -604,8 +604,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.688719854565091e-08,
-            3.6565452451547463e-06
+            0.8323217977106812,
+            0.8813797233534691
         ],
         "text": "I wouldn't return."
     },
@@ -614,8 +614,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.110302295511169e-24,
-            7.141837473855238e-24
+            0.38781951834955286,
+            0.36365485006638587
         ],
         "text": "Definitely worth venturing off the strip for the pork belly, will return next time I'm in Vegas."
     },
@@ -624,8 +624,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00994175851703407,
-            0.0019877812304771487
+            0.9756159810478012,
+            0.9613453199851779
         ],
         "text": "Penne vodka excellent!"
     },
@@ -634,8 +634,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.593702644803085e-08,
-            5.659341011715559e-09
+            0.8172171376128279,
+            0.7992213065547406
         ],
         "text": "I had a seriously solid breakfast here."
     },
@@ -644,8 +644,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.027122176672825e-11,
-            2.9378703332017794e-12
+            0.7300019854961506,
+            0.7031931266350235
         ],
         "text": "This is one of the best bars with food in Vegas."
     },
@@ -654,8 +654,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.529111090927025e-19,
-            5.8184142835965e-20
+            0.5332895203032517,
+            0.4779915931601052
         ],
         "text": "My drink was never empty and he made some really great menu suggestions."
     },
@@ -664,8 +664,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.930223873956425e-08,
-            6.246598127139367e-06
+            0.8306230813061285,
+            0.8881789132073419
         ],
         "text": "Don't do it!!!!"
     },
@@ -674,8 +674,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.44442544052195e-18,
-            5.835246633688034e-18
+            0.5530314490726176,
+            0.5364976636530094
         ],
         "text": "My husband and I ate lunch here and were very disappointed with the food and service."
     },
@@ -684,8 +684,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.0640419546370658e-09,
-            4.093236548191483e-11
+            0.7929535451744606,
+            0.7366386200251236
         ],
         "text": "This is a great restaurant at the Mandalay Bay."
     },
@@ -694,8 +694,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.381351294238607e-09,
-            4.426344244134697e-07
+            0.8018885629280335,
+            0.854570753275588
         ],
         "text": "We waited for forty five minutes in vain."
     },
@@ -704,8 +704,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.4754971219191193e-10,
-            1.5554298883127633e-09
+            0.7677779088597886,
+            0.7828231142789124
         ],
         "text": "Crostini that came with the salad was stale."
     },
@@ -714,8 +714,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.8019758649091955e-27,
-            9.247502628740573e-28
+            0.2993396902575983,
+            0.249996620269492
         ],
         "text": "I ordered the Voodoo pasta and it was the first time I'd had really excellent pasta since going gluten free several years ago."
     },
@@ -724,8 +724,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2300206766891994e-15,
-            1.2378970545952106e-14
+            0.6228081484075805,
+            0.6337505456140722
         ],
         "text": "I came back today since they relocated and still not impressed."
     },
@@ -734,8 +734,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1093003716401927e-05,
-            5.11916334321665e-06
+            0.8949163333084144,
+            0.8856517321517324
         ],
         "text": "Their menu is diverse, and reasonably priced."
     },
@@ -744,8 +744,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.530461907167211e-18,
-            9.363270548718086e-17
+            0.5533243198766444,
+            0.5717362419070837
         ],
         "text": "So don't go there if you are looking for good food..."
     },
@@ -754,8 +754,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.20425049219371e-13,
-            1.18801384253705e-10
+            0.6888406693378373,
+            0.750167112077697
         ],
         "text": "I've never been treated so bad."
     },
@@ -764,8 +764,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0011650498262149298,
-            0.00022533552410267276
+            0.9501652987800773,
+            0.9337027764117733
         ],
         "text": "Bacon is hella salty."
     },
@@ -774,8 +774,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.405773147886042e-26,
-            1.2234980286084168e-25
+            0.32372566822225657,
+            0.312020333258626
         ],
         "text": "This really is how Vegas fine dining used to be, right down to the menus handed to the ladies that have no prices listed."
     },
@@ -784,8 +784,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            6.953002238627973e-20,
-            7.615217092502699e-20
+            0.5067027786462589,
+            0.4814084757436625
         ],
         "text": "Everything on the menu is terrific and we were also thrilled that they made amazing accommodations for our vegetarian daughter."
     },
@@ -794,8 +794,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.68492102515823e-22,
-            1.0424829634734375e-20
+            0.45467612147072034,
+            0.45616100222632816
         ],
         "text": "Perhaps I caught them on an off night judging by the other reviews, but I'm not inspired to go back."
     },
@@ -804,8 +804,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.9231992730224173e-08,
-            4.322150802149093e-08
+            0.824418164605117,
+            0.82503361574059
         ],
         "text": "The service here leaves a lot to be desired."
     },
@@ -814,8 +814,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.1751833200553073e-17,
-            1.7214158276268165e-17
+            0.567599870070473,
+            0.5502329010625464
         ],
         "text": "Not a weekly haunt, but definitely a place to come back to every once in a while."
     },
@@ -824,8 +824,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.881107154287746e-23,
-            5.354835064553196e-20
+            0.4091836380032584,
+            0.4769374326182948
         ],
         "text": "We literally sat there for 20 minutes with no one asking to take our order."
     },
@@ -834,8 +834,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0486783463886315e-27,
-            4.4015454866042434e-23
+            0.2929134149917433,
+            0.38674427409331225
         ],
         "text": "The burger had absolutely no flavor - the meat itself was totally bland, the burger was overcooked and there was no charcoal flavor."
     },
@@ -844,8 +844,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.969665664948065e-05,
-            0.0005770883173664748
+            0.9127180052259286,
+            0.9456425954431076
         ],
         "text": "It was probably dirt."
     },
@@ -854,8 +854,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.739492420141623e-23,
-            4.0453764712047094e-22
+            0.4224255975485479,
+            0.41490762875805565
         ],
         "text": "Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor."
     },
@@ -864,8 +864,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.017222495191262e-29,
-            3.80376192201852e-30
+            0.25079162023475077,
+            0.18024815536726546
         ],
         "text": "Also were served hot bread and butter, and home made potato chips with bacon bits on top....very original and very good."
     },
@@ -874,8 +874,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.1986922636593508e-11,
-            1.3056874825580202e-12
+            0.7390368464961878,
+            0.6928968599102987
         ],
         "text": "Both of the egg rolls were fantastic."
     },
@@ -884,8 +884,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.794840436518675e-09,
-            5.922598420883231e-09
+            0.802959106916707,
+            0.7997985872337893
         ],
         "text": "When my order arrived, one of the gyros was missing."
     },
@@ -894,8 +894,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.136203679668538e-23,
-            1.6343976065362785e-22
+            0.4152514093207983,
+            0.4034008162902386
         ],
         "text": "I'm not really sure how Joey's was voted best hot dog in the Valley by readers of Phoenix Magazine."
     },
@@ -904,8 +904,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.0787871674619445e-12,
-            1.9926424868673006e-12
+            0.7110377110434025,
+            0.6982640621241
         ],
         "text": "The best place to go for a tasty bowl of Pho!"
     },
@@ -914,8 +914,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00013049164850391698,
-            5.082756182767052e-06
+            0.9241777037012078,
+            0.8855611130699992
         ],
         "text": "Very friendly staff."
     },
@@ -924,8 +924,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.6581949199734755e-07,
-            2.771156769443735e-07
+            0.857282784899328,
+            0.8486248810559565
         ],
         "text": "It is worth the drive."
     },
@@ -934,8 +934,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.6713957988144224e-17,
-            3.165811637982158e-17
+            0.5811224248265869,
+            0.5579683807383911
         ],
         "text": "I had heard good things about this place, but it exceeding every hope I could have dreamed of."
     },
@@ -944,8 +944,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.273983185785107e-05,
-            6.908052991469065e-07
+            0.907763798386485,
+            0.8602221263365087
         ],
         "text": "Food was great and so was the serivce!"
     },
@@ -954,8 +954,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.1466325956857751e-08,
-            4.224324343664234e-08
+            0.8133089193438606,
+            0.8247429451019813
         ],
         "text": "The warm beer didn't help."
     },
@@ -964,8 +964,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            2.650768921081265e-19,
-            1.913439853936608e-19
+            0.5225889633637453,
+            0.4931062287929341
         ],
         "text": "I've lived here since 1979 and this was the first (and last) time I've stepped foot into this place."
     },
@@ -974,8 +974,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            2.022165461201289e-14,
-            6.768607714396806e-15
+            0.656043001334955,
+            0.6260856412586084
         ],
         "text": "Must have been an off night at this place."
     },
@@ -984,8 +984,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.129162911447367e-36,
-            1.5017264803473353e-30
+            0.07122287059505594,
+            0.16844837436953297
         ],
         "text": "For about 10 minutes, we we're waiting for her salad when we realized that it wasn't coming any time soon."
     },
@@ -994,8 +994,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.1472251706706263e-07,
-            4.072061750285961e-06
+            0.8406484977394956,
+            0.8827462525774251
         ],
         "text": "Won't go back."
     },
@@ -1004,8 +1004,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.1067995365731447e-05,
-            9.657236747257396e-05
+            0.9071416013517195,
+            0.9229450867115123
         ],
         "text": "Extremely Tasty!"
     },
@@ -1014,8 +1014,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0002981799398968837,
-            0.00013136969826228694
+            0.9339875597998568,
+            0.9268520795199396
         ],
         "text": "Waitress was good though!"
     },
@@ -1024,8 +1024,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0015303111506368456,
-            4.7862620721056433e-05
+            0.9534025420154901,
+            0.9140327022263111
         ],
         "text": "The Jamaican mojitos are delicious."
     },
@@ -1034,8 +1034,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.524776409187904e-06,
-            2.585286498322513e-06
+            0.890309129180272,
+            0.8769780809558743
         ],
         "text": "- the food is rich so order accordingly."
     },
@@ -1044,8 +1044,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.719985978291678e-32,
-            7.756584635772771e-30
+            0.1621196708363285,
+            0.1892950430076007
         ],
         "text": "The shower area is outside so you can only rinse, not take a full shower, unless you don't mind being nude for everyone to see!"
     },
@@ -1054,8 +1054,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.210326324845997e-06,
-            1.8979044411214668e-05
+            0.8927084977551556,
+            0.9022884775306289
         ],
         "text": "The service was a bit lacking."
     },
@@ -1064,8 +1064,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.3111048108876057e-26,
-            3.651652551849479e-24
+            0.3228980707463235,
+            0.35513818319728296
         ],
         "text": "Lobster Bisque, Bussell Sprouts, Risotto, Filet ALL needed salt and pepper..and of course there is none at the tables."
     },
@@ -1074,8 +1074,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.1638344190600867e-20,
-            1.3436221875897706e-16
+            0.48548433974623106,
+            0.5763216922248199
         ],
         "text": "It was either too cold, not enough flavor or just bad."
     },
@@ -1084,8 +1084,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            7.288313904363116e-16,
-            5.308036254190678e-15
+            0.6165956569419885,
+            0.6229994669358011
         ],
         "text": "The folks at Otto always make us feel so welcome and special."
     },
@@ -1094,8 +1094,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.7722283643800206e-14,
-            2.7823966729376614e-15
+            0.6544768767823115,
+            0.6147987008195153
         ],
         "text": "This is the place where I first had pho and it was amazing!!"
     },
@@ -1104,8 +1104,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.047158954057391e-17,
-            5.065071262358737e-19
+            0.5789101624538096,
+            0.5054658032728742
         ],
         "text": "This wonderful experience made this place a must-stop whenever we are in town again."
     },
@@ -1114,8 +1114,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.0397887334864e-27,
-            3.9088685088373186e-25
+            0.305546963450552,
+            0.3267677113111771
         ],
         "text": "If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people."
     },
@@ -1124,8 +1124,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.14948391070723e-12,
-            3.303567904381089e-10
+            0.7257011386012759,
+            0.7631520457348763
         ],
         "text": "Ordered a double cheeseburger & got a single patty that was falling apart (picture uploaded) Yeah, still sucks."
     },
@@ -1134,8 +1134,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.057328441583504e-20,
-            1.5911315379352428e-18
+            0.49694937793382565,
+            0.5199989710017625
         ],
         "text": "If it were possible to give them zero stars, they'd have it."
     },
@@ -1144,8 +1144,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            3.2294942995629156e-23,
-            2.3849855729266772e-23
+            0.41559937124703505,
+            0.37896435304399345
         ],
         "text": "The descriptions said yum yum sauce and another said eel sauce , yet another said spicy mayo ...well NONE of the rolls had sauces on them."
     },
@@ -1154,8 +1154,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.384450872660937e-23,
-            8.616580833027991e-22
+            0.4236897711069396,
+            0.42450760216555994
         ],
         "text": "If she had not rolled the eyes we may have stayed... Not sure if we will go back and try it again."
     },
@@ -1164,8 +1164,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.996468454818683e-09,
-            3.305479691362783e-11
+            0.7925584110265296,
+            0.7339246944308657
         ],
         "text": "Everyone is very attentive, providing excellent customer service."
     },
@@ -1174,8 +1174,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6070700771033206e-15,
-            6.656662463475947e-12
+            0.6259821737431622,
+            0.7135779899589996
         ],
         "text": "Horrible - don't waste your time and money."
     },
@@ -1184,8 +1184,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.649802408119554e-08,
-            6.540599886438009e-08
+            0.8341748465921207,
+            0.8302934541585205
         ],
         "text": "Now this dish was quite flavourful."
     },
@@ -1194,8 +1194,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.693995237783731e-18,
-            1.4649155811647702e-14
+            0.5589983486731217,
+            0.6358884225202557
         ],
         "text": "(It wasn't busy either) Also, the building was FREEZING cold."
     },
@@ -1204,8 +1204,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.32207478958582e-21,
-            2.6415820673241847e-19
+            0.47619615561669804,
+            0.49720052737185116
         ],
         "text": "like the other reviewer said you couldn't pay me to eat at this place again."
     },
@@ -1214,8 +1214,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.820390353460831e-07,
-            6.516354080470573e-08
+            0.8461292869701237,
+            0.8302463012864589
         ],
         "text": "Seriously flavorful delights, folks."
     },
@@ -1224,8 +1224,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.526819611703072e-18,
-            2.9802999191062164e-16
+            0.5493539376719851,
+            0.5864363945580058
         ],
         "text": "Much better than the other AYCE sushi place I went to in Vegas."
     },
@@ -1234,8 +1234,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.629492069144784e-10,
-            5.742090435281657e-09
+            0.7752090777223157,
+            0.7994056068884914
         ],
         "text": "There is nothing privileged about working/eating there."
     },
@@ -1244,8 +1244,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.303041313702738e-32,
-            4.1780434544052684e-29
+            0.15882416697381418,
+            0.2106744473428921
         ],
         "text": "Overall, I don't think that I would take my parents to this place again because they made most of the similar complaints that I silently felt too."
     },
@@ -1254,8 +1254,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.660199304859731e-05,
-            8.89482331984234e-06
+            0.911954782134543,
+            0.8926662567029894
         ],
         "text": "Fantastic service here."
     },
@@ -1264,8 +1264,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.968830218534908e-06,
-            9.242933814141172e-06
+            0.8827150485994627,
+            0.8931536726858825
         ],
         "text": "very tough and very short on flavor!"
     },
@@ -1274,8 +1274,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.5672423199326828e-05,
-            2.507345310963254e-05
+            0.8990187278774532,
+            0.9058241161023108
         ],
         "text": "I hope this place sticks around."
     },
@@ -1284,8 +1284,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.5044290726633185e-25,
-            1.5843103642514002e-21
+            0.35791416364765627,
+            0.4322403342843196
         ],
         "text": "I have been in more than a few bars in Vegas, and do not ever recall being charged for tap water."
     },
@@ -1294,8 +1294,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.7942345992126e-09,
-            1.8919411622265793e-09
+            0.7965491053286164,
+            0.7853097353175871
         ],
         "text": "The seafood was fresh and generous in portion."
     },
@@ -1304,8 +1304,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.407276449825807e-09,
-            2.691604891538275e-08
+            0.8019585971396062,
+            0.8190203717152257
         ],
         "text": "You can't beat that."
     },
@@ -1314,8 +1314,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.4163971426702374e-17,
-            5.57241911026288e-15
+            0.5802679032470499,
+            0.6236166082392706
         ],
         "text": "The goat taco didn't skimp on the meat and wow what FLAVOR!"
     },
@@ -1324,8 +1324,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.5604638561806894e-18,
-            2.0121505676886667e-17
+            0.5534247716952874,
+            0.5522142733836339
         ],
         "text": "I went to Bachi Burger on a friend's recommendation and was not disappointed."
     },
@@ -1334,8 +1334,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.0395431890418934e-11,
-            8.880413321288639e-12
+            0.7301446778639265,
+            0.7172374911679669
         ],
         "text": "This place is not quality sushi, it is not a quality restaurant."
     },
@@ -1344,8 +1344,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.028828351435547e-06,
-            4.062828050171941e-08
+            0.8855250440664901,
+            0.8242480363673543
         ],
         "text": "Great Pizza and Salads!"
     },
@@ -1354,8 +1354,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.530176333052839e-05,
-            5.983437673889578e-06
+            0.9159596899490593,
+            0.8876324350137301
         ],
         "text": "This place is amazing!"
     },
@@ -1364,8 +1364,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.2015104417683274e-17,
-            3.5631832969486736e-16
+            0.5794967330761689,
+            0.5887043694944172
         ],
         "text": "I hate to disagree with my fellow Yelpers, but my husband and I were so disappointed with this place."
     },
@@ -1374,8 +1374,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.609392377961152e-23,
-            2.4446952791558753e-19
+            0.4241008110676485,
+            0.4962170904827464
         ],
         "text": "I live in the neighborhood so I am disappointed I won't be back here, because it is a convenient location."
     },
@@ -1384,8 +1384,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4457764490028826e-32,
-            1.1032843237264628e-28
+            0.16005807961232832,
+            0.22300314268127674
         ],
         "text": "Before I go in to why I gave a 1 star rating please know that this was my third time eating at Bachi burger before writing a review."
     },
@@ -1394,8 +1394,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.1894635008567643e-17,
-            2.629522414354172e-17
+            0.5749862441279372,
+            0.5556118246331929
         ],
         "text": "I love the fact that everything on their menu is worth it."
     },
@@ -1404,8 +1404,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.268273175234929e-13,
-            4.3651718094104314e-12
+            0.6947431034256317,
+            0.7082205799462704
         ],
         "text": "Never again will I be dining at this place!"
     },
@@ -1414,8 +1414,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.3996979927804896e-11,
-            1.0261516624285585e-11
+            0.7336759349199989,
+            0.7190727978729325
         ],
         "text": "Please stay away from the shrimp stir fried noodles."
     },
@@ -1424,8 +1424,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.858311545879459e-13,
-            2.5014997352885638e-12
+            0.7009117881589899,
+            0.7011516045477868
         ],
         "text": "This greedy corporation will NEVER see another dime from me!"
     },
@@ -1434,8 +1434,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.242780916047555e-09,
-            4.8448888047688924e-08
+            0.8107499178000931,
+            0.8264831859705084
         ],
         "text": "Will never, ever go back."
     },
@@ -1444,8 +1444,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.2708791807328973e-12,
-            2.0570085345965697e-13
+            0.7120868780462841,
+            0.6694330003597657
         ],
         "text": "In the summer, you can dine in a charming outdoor patio - so very delightful."
     },
@@ -1454,8 +1454,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0009320398609719447,
-            0.00024143091868143515
+            0.9475164142484149,
+            0.9345787421585149
         ],
         "text": "Fantastic food!"
     },
@@ -1464,8 +1464,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.694692482538009e-12,
-            2.4534599598509273e-11
+            0.7086127117211434,
+            0.7301401016154956
         ],
         "text": "She ordered a toasted English muffin that came out untoasted."
     },
@@ -1474,8 +1474,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0001012458665856234,
-            2.3723805514018354e-05
+            0.92116541000947,
+            0.9051216123653558
         ],
         "text": "The food was very good."
     },
@@ -1484,8 +1484,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            9.463471917393716e-16,
-            3.725824823387496e-17
+            0.6196959100106173,
+            0.5600363660183785
         ],
         "text": "Great food for the price, which is very high quality and house made."
     },
@@ -1494,8 +1494,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.4780562142445236e-13,
-            4.649499136023678e-14
+            0.6857898384951335,
+            0.6505523584812531
         ],
         "text": "Back to good BBQ, lighter fare, reasonable pricing and tell the public they are back to the old ways."
     },
@@ -1504,8 +1504,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.8279074784820497e-31,
-            2.0873633944034227e-31
+            0.19535550814054814,
+            0.143394450519722
         ],
         "text": "And considering the two of us left there very full and happy for about $20, you just can't go wrong."
     },
@@ -1514,8 +1514,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.3375150124695996e-08,
-            5.6643571766056415e-09
+            0.8315653326537212,
+            0.7992325551022257
         ],
         "text": "All the bread is made in-house!"
     },
@@ -1524,8 +1524,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1481193433776381e-08,
-            4.823390403710964e-09
+            0.8133243012540232,
+            0.797192025435402
         ],
         "text": "Service was exceptional and food was a good as all the reviews."
     },
@@ -1534,8 +1534,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.4843706239858548e-08,
-            3.7174054224245325e-08
+            0.8224872743665227,
+            0.8231199128622764
         ],
         "text": "The black eyed peas and sweet potatoes... UNREAL!"
     },
@@ -1544,8 +1544,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.7629105799303338e-09,
-            1.0441183975092198e-07
+            0.7910815257123914,
+            0.8362319614061604
         ],
         "text": "You won't be disappointed."
     },
@@ -1554,8 +1554,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4457602726641577e-35,
-            1.0114896179208923e-33
+            0.07805761113837073,
+            0.07572675063121292
         ],
         "text": "I go to far too many places and I've never seen any restaurant that serves a 1 egg breakfast, especially for $4.00."
     },
@@ -1564,8 +1564,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.4297016326876169e-18,
-            1.7547626330109546e-18
+            0.5425935887598329,
+            0.5212418050126476
         ],
         "text": "Both of them were truly unbelievably good, and I am so glad we went back."
     },
@@ -1574,8 +1574,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0659159085131068e-13,
-            7.192135598312583e-15
+            0.6757751864269926,
+            0.6268562246618581
         ],
         "text": "We had fantastic service, and were pleased by the atmosphere."
     },
@@ -1584,8 +1584,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.268969279730732e-05,
-            1.8805089832224423e-05
+            0.9154751016685581,
+            0.90217157003504
         ],
         "text": "I love this place."
     },
@@ -1594,8 +1594,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00030172970108613303,
-            6.3989541790208065e-06
+            0.9341280438587379,
+            0.8884848669864593
         ],
         "text": "Great service and food."
     },
@@ -1604,8 +1604,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.12172387226343e-14,
-            3.059410686907365e-13
+            0.6709880666083791,
+            0.6744731113497495
         ],
         "text": "First - the bathrooms at this location were dirty- Seat covers were not replenished & just plain yucky!!!"
     },
@@ -1614,8 +1614,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.881965305875675e-15,
-            4.2049658956751016e-14
+            0.64627655318991,
+            0.6492764483390305
         ],
         "text": "The burger... I got the Gold Standard a $17 burger and was kind of disappointed."
     },
@@ -1624,8 +1624,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            0.007397156201288072,
-            0.0079525585198063
+            0.9721064098552948,
+            0.9789486501925492
         ],
         "text": "OMG, the food was delicioso!"
     },
@@ -1634,8 +1634,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            3.113830725218219e-11,
-            2.5412060802931373e-11
+            0.7431677651424586,
+            0.730586249720892
         ],
         "text": "There is nothing authentic about this place."
     },
@@ -1644,8 +1644,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.1843490429954113e-13,
-            1.0106386239394506e-14
+            0.688766710662502,
+            0.6311753010081462
         ],
         "text": "Of all the dishes, the salmon was the best, but all were great."
     },
@@ -1654,8 +1654,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            9.09972961111099e-09,
-            4.4860081525637883e-10
+            0.8105647563665707,
+            0.7670366592741156
         ],
         "text": "Pretty good beer selection too."
     },
@@ -1664,8 +1664,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.264931825102827e-15,
-            1.0915424477692466e-16
+            0.6454218419101798,
+            0.5736836544169188
         ],
         "text": "Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!"
     },
@@ -1674,8 +1674,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4463630693929955e-15,
-            3.361950739129269e-14
+            0.6247314638815943,
+            0.6464356797655872
         ],
         "text": "We sat another ten minutes and finally gave up and left."
     },
@@ -1684,8 +1684,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.645639484535474e-06,
-            8.445194888289878e-05
+            0.8904982825248908,
+            0.9212423643646835
         ],
         "text": "He was terrible!"
     },
@@ -1694,8 +1694,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.3702999394021245e-08,
-            2.2160880273665156e-08
+            0.8219293145639678,
+            0.8165522528703348
         ],
         "text": "Everyone is treated equally special."
     },
@@ -1704,8 +1704,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.3838267365416648e-11,
-            1.5088778753083192e-10
+            0.7399965302666365,
+            0.7532026263369269
         ],
         "text": "It shouldn't take 30 min for pancakes and eggs."
     },
@@ -1714,8 +1714,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.000844843163041171,
-            9.618138622774567e-05
+            0.946350413412362,
+            0.9228935796735513
         ],
         "text": "It was delicious!!!"
     },
@@ -1724,8 +1724,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.5020164098914746e-20,
-            4.224721944420676e-20
+            0.4985613973945212,
+            0.4739277800007049
         ],
         "text": "Sadly, Gordon Ramsey's Steak is a place we shall sharply avoid during our next trip to Vegas."
     },
@@ -1734,8 +1734,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.1841217364583045e-12,
-            2.9825305842846676e-11
+            0.7193414554781123,
+            0.7326193772866267
         ],
         "text": "Best fish I've ever had in my life!"
     },
@@ -1744,8 +1744,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.388146350725603e-13,
-            2.290308833670923e-13
+            0.6950101811714833,
+            0.6707970315084664
         ],
         "text": "(The bathroom is just next door and very nice.)"
     },
@@ -1754,8 +1754,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.913516055063397e-21,
-            3.712504627702645e-22
+            0.47744706546106863,
+            0.41381741018920093
         ],
         "text": "This is an Outstanding little restaurant with some of the Best Food I have ever tasted."
     },
@@ -1764,8 +1764,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6815786610594894e-23,
-            7.467942831046657e-22
+            0.40785259905505555,
+            0.4226911340525584
         ],
         "text": "Definitely a turn off for me & i doubt I'll be back unless someone else is buying."
     },
@@ -1774,8 +1774,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.593394802797526e-14,
-            2.627186737145167e-14
+            0.6657823748953516,
+            0.6433046319800324
         ],
         "text": "Server did a great job handling our large rowdy table."
     },
@@ -1784,8 +1784,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2453959351478045e-14,
-            3.3722685517654333e-12
+            0.6502890584344263,
+            0.7049439788434451
         ],
         "text": "I find wasting food to be despicable, but this just wasn't food."
     },
@@ -1794,8 +1794,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.186086302765753e-18,
-            6.000161341563422e-18
+            0.5476344743868805,
+            0.5368515119952828
         ],
         "text": "Would come back again if I had a sushi craving while in Vegas."
     },
@@ -1804,8 +1804,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.427187137947775e-06,
-            1.5639249793129372e-06
+            0.8768777383011723,
+            0.8705963582805664
         ],
         "text": "He deserves 5 stars."
     },
@@ -1814,8 +1814,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.9850487540750643e-13,
-            9.525323097716238e-13
+            0.6831565350317174,
+            0.6888928897464
         ],
         "text": "I left with a stomach ache and felt sick the rest of the day."
     },
@@ -1824,8 +1824,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.647684121179679e-06,
-            1.0463892789218805e-05
+            0.8845894145381724,
+            0.8947289386549309
         ],
         "text": "They dropped more than the ball."
     },
@@ -1834,8 +1834,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.766998841432862e-06,
-            0.00024143091868143515
+            0.8906852275606147,
+            0.9345787421585149
         ],
         "text": "RUDE & INCONSIDERATE MANAGEMENT."
     },
@@ -1844,8 +1844,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00037239118663963676,
-            6.777008243689408e-06
+            0.9366258104769274,
+            0.88921365913727
         ],
         "text": "They have great dinners."
     },
@@ -1854,8 +1854,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.3813180348700293e-14,
-            4.4680865479428575e-14
+            0.6652212467236823,
+            0.6500470486060064
         ],
         "text": "This place deserves one star and 90% has to do with the food."
     },
@@ -1864,8 +1864,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.668283762037007e-08,
-            1.370411404777491e-07
+            0.8177600517031736,
+            0.8396846146348256
         ],
         "text": "Def coming back to bowl next time"
     },
@@ -1874,8 +1874,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.434522794218722e-21,
-            2.0031000968996735e-22
+            0.4606332157044011,
+            0.4059835536478983
         ],
         "text": "I will continue to come here on ladies night andddd date night ... highly recommend this place to anyone who is in the area (;"
     },
@@ -1884,8 +1884,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.296739756077874e-19,
-            7.011729068185098e-20
+            0.5308064019177887,
+            0.480360202491959
         ],
         "text": "We walked away stuffed and happy about our first Vegas buffet experience."
     },
@@ -1894,8 +1894,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.2449820396285038e-15,
-            1.082651740463079e-14
+            0.6299503901862274,
+            0.6320492104802953
         ],
         "text": "To summarize... the food was incredible, nay, transcendant... but nothing brings me joy quite like the memory of the pneumatic condiment dispenser."
     },
@@ -1904,8 +1904,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.982571252080153e-21,
-            7.18299719693296e-18
+            0.4775848834112705,
+            0.5391359921276256
         ],
         "text": "I'm probably one of the few people to ever go to Ians and not like it."
     },
@@ -1914,8 +1914,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.3530815190551246e-08,
-            1.2437456683854767e-08
+            0.826046846798097,
+            0.8092185705770574
         ],
         "text": "Cooked to perfection and the service was impeccable."
     },
@@ -1924,8 +1924,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.2429889075006402e-07,
-            3.3591229046397573e-07
+            0.8486074081909456,
+            0.8510678726047609
         ],
         "text": "This one is simply a disappointment."
     },
@@ -1934,8 +1934,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.129782414472869e-13,
-            4.1018137741361646e-13
+            0.6764659536053526,
+            0.6781958038244258
         ],
         "text": "Overall, I was very disappointed with the quality of food at Bouchon."
     },
@@ -1944,8 +1944,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.805829844479405e-16,
-            2.4230814598876175e-13
+            0.6188409141479826,
+            0.6715125204946234
         ],
         "text": "I don't have to be an accountant to know I'm getting screwed!"
     },
@@ -1954,8 +1954,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00018349534762885131,
-            4.9263636848357557e-05
+            0.9282242108899238,
+            0.9143990128403932
         ],
         "text": "Service was fantastic."
     },
@@ -1964,8 +1964,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.2562142617108193e-20,
-            1.7334508777771522e-18
+            0.4933424084955369,
+            0.5210866611990483
         ],
         "text": "I don't know what kind it is but they have the best iced tea."
     },
@@ -1974,8 +1974,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.9720895495825634e-07,
-            9.141363112886854e-08
+            0.8470794550972333,
+            0.834543985457364
         ],
         "text": "Come hungry, leave happy and stuffed!"
     },
@@ -1984,8 +1984,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.2066308366380333e-13,
-            4.877884890591179e-11
+            0.6844127393149875,
+            0.7388652720514518
         ],
         "text": "I can assure you that you won't be disappointed."
     },
@@ -1994,8 +1994,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.923553974361922e-14,
-            1.0899924714487782e-12
+            0.6688013149789094,
+            0.6906043994692087
         ],
         "text": "I can take a little bad service but the food sucks."
     },
@@ -2004,8 +2004,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.9554974500067494e-08,
-            2.199425711371278e-08
+            0.8196457131434502,
+            0.8164564300196877
         ],
         "text": "I really enjoyed eating here."
     },
@@ -2014,8 +2014,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.2895623666864995e-28,
-            2.374217635337239e-28
+            0.2885963475678611,
+            0.23273341679070603
         ],
         "text": "Our server was very nice, and even though he looked a little overwhelmed with all of our needs, he stayed professional and friendly until the end."
     },
@@ -2024,8 +2024,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.8964328284734665e-12,
-            1.864965764560612e-11
+            0.7234137300080413,
+            0.7266580121212723
         ],
         "text": "Furthermore, you can't even find hours of operation on the website!"
     },
@@ -2034,8 +2034,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.352377867681305e-27,
-            2.234094863230747e-25
+            0.302503758347465,
+            0.31966515779424
         ],
         "text": "We've tried to like this place but after 10+ times I think we're done with them."
     },
@@ -2044,8 +2044,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.247314367628093e-08,
-            7.198120509942353e-07
+            0.8334336898245238,
+            0.8607443589637782
         ],
         "text": "What a mistake that was!"
     },
@@ -2054,8 +2054,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            0.001988351703406814,
-            0.025841155996202923
+            0.956510722725034,
+            0.993911115999162
         ],
         "text": "No complaints!"
     },
@@ -2064,8 +2064,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2941837669135585e-07,
-            1.624075940055746e-06
+            0.8420793292786859,
+            0.871075527126148
         ],
         "text": "Strike 2, who wants to be rushed."
     },
@@ -2074,8 +2074,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.266539890923827e-07,
-            1.8805089832224435e-06
+            0.8562402368162718,
+            0.8729368733634862
         ],
         "text": "I never come again."
     },
@@ -2084,8 +2084,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.2842285071680665e-06,
-            6.558565280991836e-07
+            0.8693211079069092,
+            0.8595629770479565
         ],
         "text": "We loved the biscuits!!!"
     },
@@ -2094,8 +2094,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.2242168897592685e-20,
-            4.812885601306697e-19
+            0.49317285350870244,
+            0.5048173770854852
         ],
         "text": "Ordered an appetizer and took 40 minutes and then the pizza another 10 minutes."
     },
@@ -2104,8 +2104,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0006524279026803607,
-            0.00013681085391947998
+            0.9432824100109343,
+            0.927367351316015
         ],
         "text": "So absolutley fantastic."
     },
@@ -2114,8 +2114,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.90147472820703e-10,
-            3.6427735374202203e-10
+            0.7758867674009204,
+            0.7643930274714539
         ],
         "text": "definitely will come back here again."
     },
@@ -2124,8 +2124,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.254192306528441e-14,
-            6.344222404800486e-15
+            0.6503726082622032,
+            0.6252635339536716
         ],
         "text": "I like Steiners because it's dark and it feels like a bar."
     },
@@ -2134,8 +2134,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.9965537003163934e-12,
-            7.958916265362554e-12
+            0.7187970099042809,
+            0.7158465264002305
         ],
         "text": "If you're not familiar, check it out."
     },
@@ -2144,8 +2144,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.553399768286575e-05,
-            4.828618373628706e-05
+            0.8989134144561671,
+            0.9141445660992368
         ],
         "text": "Nothing special."
     },
@@ -2154,8 +2154,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6061152389388771e-06,
-            1.7323476693927912e-05
+            0.8719761256158869,
+            0.9011296350302458
         ],
         "text": "Will not be back."
     },
@@ -2164,8 +2164,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.8671643248945191e-13,
-            7.35001376165911e-15
+            0.6824297759821447,
+            0.627131916194207
         ],
         "text": "My ribeye steak was cooked perfectly and had great mesquite flavor."
     },
@@ -2174,8 +2174,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.451015391935064e-19,
-            3.597017011978918e-15
+            0.5216589201620213,
+            0.6180590549484213
         ],
         "text": "I don't think we'll be going back anytime soon."
     },
@@ -2184,8 +2184,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.728304082964086e-25,
-            1.3190245555611626e-24
+            0.3589305314667858,
+            0.3422095312792208
         ],
         "text": "I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food."
     },
@@ -2194,8 +2194,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.407720459487003e-06,
-            2.8416580190916893e-05
+            0.8929602220208293,
+            0.9074132458720866
         ],
         "text": "I was so insulted."
     },
@@ -2204,8 +2204,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1078004162097883e-06,
-            2.199425711371278e-08
+            0.8675668260144476,
+            0.8164564300196877
         ],
         "text": "Nargile - I think you are great."
     },
@@ -2214,8 +2214,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.7242626707873944e-05,
-            6.558565280991844e-06
+            0.9092934834698606,
+            0.8887976737195104
         ],
         "text": "We loved the place."
     },
@@ -2224,8 +2224,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.185518077621971e-12,
-            6.685119910697105e-10
+            0.7286758091014516,
+            0.7721015454207798
         ],
         "text": "Definitely not worth the $3 I paid."
     },
@@ -2234,8 +2234,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.4758835656335341e-13,
-            2.696595958011306e-15
+            0.6796381990827065,
+            0.6144010163836824
         ],
         "text": "The vanilla ice cream was creamy and smooth while the profiterole (choux) pastry was fresh enough."
     },
@@ -2244,8 +2244,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.3707843943192616e-11,
-            3.6808534826854316e-14
+            0.7399314048731191,
+            0.647586275128659
         ],
         "text": "The inside is really quite nice and very clean."
     },
@@ -2254,8 +2254,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.3075235144427432e-11,
-            1.4022298981658703e-12
+            0.7328672795388742,
+            0.6938025502937716
         ],
         "text": "The food was outstanding and the prices were very reasonable."
     },
@@ -2264,8 +2264,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.093784038343884e-34,
-            4.658502219946887e-31
+            0.11442185466593402,
+            0.15358707616946354
         ],
         "text": "This is was due to the fact that it took 20 minutes to be acknowledged, then another 35 minutes to get our food...and they kept forgetting things."
     },
@@ -2274,8 +2274,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.6692243061944883e-07,
-            5.36609886626606e-07
+            0.8544498538216228,
+            0.8570151680959419
         ],
         "text": "Love the margaritas, too!"
     },
@@ -2284,8 +2284,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            7.06479148665664e-15,
-            5.892308144998159e-14
+            0.6435593429444317,
+            0.6535600030066904
         ],
         "text": "This was my first and only Vegas buffet and it did not disappoint."
     },
@@ -2294,8 +2294,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0069669979607652815,
-            0.0014646809066673721
+            0.9713952180436285,
+            0.9574680518134818
         ],
         "text": "Very good, though!"
     },
@@ -2304,8 +2304,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            5.4675702842988014e-11,
-            1.9941408824522626e-11
+            0.7498507754105384,
+            0.7275083024953721
         ],
         "text": "The one down note is the ventilation could use some upgrading."
     },
@@ -2314,8 +2314,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.252436269022434e-06,
-            9.774531120705854e-08
+            0.8914048881648386,
+            0.8353942758314638
         ],
         "text": "Great pork sandwich."
     },
@@ -2324,8 +2324,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            5.960299015058502e-14,
-            1.853296858415035e-14
+            0.6688747243542261,
+            0.638874231999487
         ],
         "text": "Third, the cheese on my friend's burger was cold."
     },
@@ -2334,8 +2334,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.8957770023147866e-10,
-            3.5161586167463484e-10
+            0.7646106411059852,
+            0.7639438739293184
         ],
         "text": "We enjoy their pizza and brunch."
     },
@@ -2344,8 +2344,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            8.03212478011535e-18,
-            7.611753792243354e-17
+            0.5630823302106833,
+            0.569106790259036
         ],
         "text": "This place is a jewel in Las Vegas, and exactly what I've been hoping to find in nearly ten years living here."
     },
@@ -2354,8 +2354,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.3974202182593356e-08,
-            3.384341954790404e-08
+            0.8220643652394741,
+            0.821928140272353
         ],
         "text": "The selection of food was not the best."
     },
@@ -2364,8 +2364,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.344239507844424e-12,
-            5.013327946166439e-13
+            0.7058625776960774,
+            0.6807436127764406
         ],
         "text": "They had a toro tartare with a cavier that was extraordinary and I liked the thinly sliced wagyu with white truffle."
     },
@@ -2374,8 +2374,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.894737433885748e-12,
-            5.813614712762629e-12
+            0.7184906711904604,
+            0.7118586889798548
         ],
         "text": "It was attached to a gas station, and that is rarely a good sign."
     },
@@ -2384,8 +2384,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1614469703070413e-06,
-            4.432176054733021e-07
+            0.8681281965256457,
+            0.8545874701541643
         ],
         "text": "How awesome is that."
     },
@@ -2394,8 +2394,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            6.404180740006086e-17,
-            2.7044638031632662e-15
+            0.5877270700718547,
+            0.6144380068688491
         ],
         "text": "The menu had so much good stuff on it i could not decide!"
     },
@@ -2404,8 +2404,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.396874985275165e-18,
-            5.333097949991872e-18
+            0.5423178524386296,
+            0.5353551817477806
         ],
         "text": "Worse of all, he humiliated his worker right in front of me..Bunch of horrible name callings."
     },
@@ -2414,8 +2414,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            0.0001786409733529558,
-            0.00020924012952391026
+            0.9279059407686625,
+            0.9327618669559404
         ],
         "text": "CONCLUSION: Very filling meals."
     },
@@ -2424,8 +2424,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.691468223283518e-12,
-            2.354516598517216e-13
+            0.7178543745398571,
+            0.6711480732171347
         ],
         "text": "Their daily specials are always a hit with my group."
     },
@@ -2434,8 +2434,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.787738955738053e-13,
-            1.1921792656470957e-12
+            0.6936077316114013,
+            0.69174215732465
         ],
         "text": "The pancake was also really good and pretty large at that."
     },
@@ -2444,8 +2444,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.9516133647932502e-09,
-            3.654012568793984e-11
+            0.7971995484514223,
+            0.7351974428436723
         ],
         "text": "This was my first crawfish experience, and it was delicious!"
     },
@@ -2454,8 +2454,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.7479241195056892e-15,
-            4.68674966583526e-16
+            0.6269795099433347,
+            0.5921842804862609
         ],
         "text": "Their monster chicken fried steak and eggs is my all time favorite."
     },
@@ -2464,8 +2464,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.9530669666704548e-10,
-            1.1416099405020631e-10
+            0.7649640593841286,
+            0.7496612419237576
         ],
         "text": "I'd rather eat airline food, seriously."
     },
@@ -2474,8 +2474,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1558056564512626e-05,
-            3.2196593197596287e-06
+            0.8954038432636608,
+            0.8797641838654979
         ],
         "text": "The ambiance was incredible."
     },
@@ -2484,8 +2484,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0751680525127993e-06,
-            3.5900626043337475e-06
+            0.867211896508328,
+            0.8811467541117325
         ],
         "text": "My gyro was basically lettuce only."
     },
@@ -2494,8 +2494,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            0.0001864079721943886,
-            0.0010140098584620271
+            0.9284111559256477,
+            0.9527992461140586
         ],
         "text": "Terrible service!"
     },
@@ -2504,8 +2504,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            0.003976703406813628,
-            0.013914468613340043
+            0.9647389096205864,
+            0.9860515048427194
         ],
         "text": "Thoroughly disappointed!"
     },
@@ -2514,8 +2514,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            8.680418058290345e-28,
-            5.590206968291789e-25
+            0.2906692937984233,
+            0.33131010568511243
         ],
         "text": "I don't each much pasta, but I love the homemade /hand made pastas and thin pizzas here."
     },
@@ -2524,8 +2524,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.3947855195835035e-14,
-            4.5194960652986743e-14
+            0.658050641113302,
+            0.6501922993170088
         ],
         "text": "Give it a try, you will be happy you did."
     },
@@ -2534,8 +2534,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.533909757102889e-11,
-            2.1708596201234624e-11
+            0.7347628622203717,
+            0.7285863583422945
         ],
         "text": "By far the BEST cheesecurds we have ever had!"
     },
@@ -2544,8 +2544,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.015906813627254515,
-            0.009938906152385745
+            0.9811952834116913,
+            0.9817794960444561
         ],
         "text": "Reasonably priced also!"
     },
@@ -2554,8 +2554,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.1507264580090672e-09,
-            5.2243566716426725e-09
+            0.7860177812491135,
+            0.7982058965256027
         ],
         "text": "it was a drive to get there."
     },
@@ -2564,8 +2564,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.3672763222287406e-23,
-            1.5591966374411642e-20
+            0.4053963912148033,
+            0.46127216046845876
         ],
         "text": "Point your finger at any item on the menu, order it and you won't be disappointed."
     },
@@ -2574,8 +2574,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.1754592664956822e-10,
-            2.1654324710731663e-11
+            0.7589367736623178,
+            0.7285545774309707
         ],
         "text": "first time there and might just be the last."
     },
@@ -2584,8 +2584,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.224049806158769e-19,
-            2.6853388859223824e-17
+            0.5205054069594198,
+            0.5558785100758608
         ],
         "text": "Similarly, the delivery man did not say a word of apology when our food was 45 minutes late."
     },
@@ -2594,8 +2594,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.8454251651333032e-05,
-            4.588594186996625e-05
+            0.9009583170292317,
+            0.9134972154283325
         ],
         "text": "And it was way to expensive."
     },
@@ -2604,8 +2604,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.223785352820388e-07,
-            6.517528987367681e-08
+            0.8624910956814512,
+            0.8302485902692789
         ],
         "text": "The bartender was also nice."
     },
@@ -2614,8 +2614,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.892743759111079e-06,
-            4.97408583956273e-07
+            0.8739254135453705,
+            0.8560520194903426
         ],
         "text": "Everything was good and tasty!"
     },
@@ -2624,8 +2624,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            9.545762977544937e-17,
-            3.8642663662478753e-17
+            0.5924652426155389,
+            0.5604995787681692
         ],
         "text": "The best place in Vegas for breakfast (just check out a Sat, or Sun."
     },
@@ -2634,8 +2634,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.535344135489414e-26,
-            4.103713011632422e-28
+            0.3436568843100247,
+            0.23968123115743267
         ],
         "text": "If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place."
     },
@@ -2644,8 +2644,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.277650671889778e-09,
-            1.869170063568241e-10
+            0.8016042196465272,
+            0.755921298951562
         ],
         "text": "An excellent new restaurant by an experienced Frenchman."
     },
@@ -2654,8 +2654,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6394670673574299e-15,
-            7.514195887244215e-13
+            0.62621909683289,
+            0.6858817977490046
         ],
         "text": "If there were zero stars I would give it zero stars."
     },
@@ -2664,8 +2664,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.883499420716441e-05,
-            0.0005633388102566819
+            0.909790485883382,
+            0.9453364318587758
         ],
         "text": "Worst martini ever!"
     },
@@ -2674,8 +2674,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.856680816006075e-14,
-            1.8306034274956738e-13
+            0.6686665393906502,
+            0.6679525020421069
         ],
         "text": "I had the opportunity today to sample your amazing pizzas!"
     },
@@ -2684,8 +2684,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.7911760251362888e-10,
-            7.371199333350316e-11
+            0.7639368994808653,
+            0.7441072463507503
         ],
         "text": "The yellowtail carpaccio was melt in your mouth fresh."
     },
@@ -2694,8 +2694,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.032890664725136e-22,
-            1.4793829383626844e-19
+            0.4455699998975682,
+            0.4898397130648511
         ],
         "text": "No, I'm going to eat the potato that I found some strangers hair in it."
     },
@@ -2704,8 +2704,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.510699308058268e-13,
-            1.120933007848602e-12
+            0.70043657698201,
+            0.6909597811086814
         ],
         "text": "not even a hello, we will be right with you."
     },
@@ -2714,8 +2714,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.382009997680032e-16,
-            7.908117783969635e-17
+            0.6167472908640075,
+            0.5695917470085845
         ],
         "text": "I really do recommend this place, you can go wrong with this donut place!"
     },
@@ -2724,8 +2724,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.463715754371226e-16,
-            2.032228558729515e-16
+            0.5975395901392226,
+            0.5815750322495903
         ],
         "text": "I guess maybe we went on an off night but it was disgraceful."
     },
@@ -2734,8 +2734,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.921563002481999e-12,
-            6.959211707634253e-12
+            0.7150777371714756,
+            0.7141423222925964
         ],
         "text": "However, my recent experience at this particular location was not so good."
     },
@@ -2744,8 +2744,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.6261603248658515e-22,
-            3.029543744379818e-20
+            0.44047790992096425,
+            0.46970567871434654
         ],
         "text": "I know this is not like the other restaurants at all, something is very off here!"
     },
@@ -2754,8 +2754,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.305827781050383e-06,
-            3.5188312034541167e-06
+            0.8762688476866733,
+            0.8808923073705761
         ],
         "text": "AVOID THIS ESTABLISHMENT!"
     },
@@ -2764,8 +2764,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6220052879417972e-15,
-            6.185466126694937e-14
+            0.6260919845179516,
+            0.6541764745360389
         ],
         "text": "I think this restaurant suffers from not trying hard enough."
     },
@@ -2774,8 +2774,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.5697215831518684e-10,
-            2.3502374686044465e-11
+            0.7682213570109427,
+            0.7295943708371355
         ],
         "text": "All of the tapas dishes were delicious!"
     },
@@ -2784,8 +2784,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            7.836211599663427e-06,
-            1.8805089832224423e-05
+            0.8907905409819008,
+            0.90217157003504
         ],
         "text": "I *heart* this place."
     },
@@ -2794,8 +2794,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.0317108244055486e-13,
-            3.0293275140092703e-12
+            0.6881836092487386,
+            0.7035823458579618
         ],
         "text": "My salad had a bland vinegrette on the baby greens and hearts of Palm."
     },
@@ -2804,8 +2804,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.2665398909238226e-08,
-            4.1789088516054204e-07
+            0.8289067915979522,
+            0.8538404036612008
         ],
         "text": "After two I felt disgusting."
     },
@@ -2814,8 +2814,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.404120103788872e-18,
-            1.348946305060633e-19
+            0.5423792629618306,
+            0.4886678126857126
         ],
         "text": "I believe that this place is a great stop for those with a huge belly and hankering for sushi."
     },
@@ -2824,8 +2824,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.641891107405022e-14,
-            4.215635095608447e-14
+            0.6592163658002912,
+            0.6493086221048323
         ],
         "text": "I will never go back to this place and will never ever recommended this place to anyone!"
     },
@@ -2834,8 +2834,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.338708072201644e-25,
-            2.9536686818002226e-23
+            0.3571014659196998,
+            0.38167955537086273
         ],
         "text": "The servers went back and forth several times, not even so much as an Are you being helped?"
     },
@@ -2844,8 +2844,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.699030996563444e-06,
-            4.88726556035294e-07
+            0.8726437340636917,
+            0.855828451890742
         ],
         "text": "AN HOUR... seriously?"
     },
@@ -2854,8 +2854,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.879860841678489e-05,
-            0.00013723441693471065
+            0.9147144366559302,
+            0.9274065985418407
         ],
         "text": "Eew... This location needs a complete overhaul."
     },
@@ -2864,8 +2864,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.437986149573287e-16,
-            3.834613362956097e-16
+            0.6131191441402074,
+            0.5896364715342461
         ],
         "text": "He also came back to check on us regularly, excellent service."
     },
@@ -2874,8 +2874,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            9.269294573136241e-18,
-            2.3853902289965573e-17
+            0.5647829143258425,
+            0.5543746870766247
         ],
         "text": "Our server was super nice and checked on us many times."
     },
@@ -2884,8 +2884,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.471632301686717e-15,
-            1.477178349353982e-14
+            0.6425183346231627,
+            0.6359942619274135
         ],
         "text": "The pizza tasted old, super chewy in not a good way."
     },
@@ -2894,8 +2894,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.2590128986270284e-32,
-            5.92287579700424e-31
+            0.17288314556480877,
+            0.1566358550659207
         ],
         "text": "As for the service: I'm a fan, because it's quick and you're being served by some nice folks."
     },
@@ -2904,8 +2904,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.2265113663816774e-08,
-            1.139702414074208e-06
+            0.8313158545502056,
+            0.8665787962234595
         ],
         "text": "Boy was that sucker dry!!."
     },
@@ -2914,8 +2914,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.330099652429861e-05,
-            8.047697289381162e-05
+            0.9037265952389906,
+            0.9206302470012344
         ],
         "text": "Over rated."
     },
@@ -2924,8 +2924,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.7318964569346254e-23,
-            3.458591023628478e-20
+            0.4082025966092542,
+            0.47138731641623366
         ],
         "text": "After I pulled up my car I waited for another 15 minutes before being acknowledged."
     },
@@ -2934,8 +2934,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.7116065442479964e-11,
-            4.994668442581992e-14
+            0.745252403153955,
+            0.6514615719522501
         ],
         "text": "Great food and great service in a clean and friendly setting."
     },
@@ -2944,8 +2944,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.4793073614511607e-11,
-            2.6494167787671476e-11
+            0.7404627208562484,
+            0.7311157016715812
         ],
         "text": "All in all, I can assure you I'll be back."
     },
@@ -2954,8 +2954,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.7308772878466614e-10,
-            9.562959723208355e-12
+            0.7635303968025907,
+            0.7181776540761092
         ],
         "text": "My breakfast was perpared great, with a beautiful presentation of 3 giant slices of Toast, lightly dusted with powdered sugar."
     },
@@ -2964,8 +2964,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.9159807422604274e-18,
-            2.5093066045288482e-17
+            0.5510543625742947,
+            0.5550176835816296
         ],
         "text": "OMG I felt like I had never eaten Thai food until this dish."
     },
@@ -2974,8 +2974,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.1564463401330687e-09,
-            1.9658523175445555e-08
+            0.7934734309967572,
+            0.8150309927272816
         ],
         "text": "It was extremely crumby and pretty tasteless."
     },
@@ -2984,8 +2984,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.719776487927807e-13,
-            4.61365223332573e-13
+            0.6934380174117174,
+            0.6796887880972624
         ],
         "text": "It'll be a regular stop on my trips to Phoenix!"
     },
@@ -2994,8 +2994,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.8944230472898656e-35,
-            1.0440712546519962e-32
+            0.08982047291199613,
+            0.10536397134778286
         ],
         "text": "We got sitting fairly fast, but, ended up waiting 40 minutes just to place our order, another 30 minutes before the food arrived."
     },
@@ -3004,8 +3004,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.994830550474607e-12,
-            4.473581537182723e-11
+            0.7236101906871043,
+            0.7377667435302017
         ],
         "text": "Couldn't ask for a more satisfying meal."
     },
@@ -3014,8 +3014,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.749710297618884e-09,
-            1.0658755370491593e-07
+            0.8113837544913223,
+            0.836493809177806
         ],
         "text": "I just wanted to leave."
     },
@@ -3024,8 +3024,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.3054353857085492e-11,
-            1.6186272633333865e-09
+            0.7328483066498801,
+            0.783328769616259
         ],
         "text": "I will not be eating there again."
     },
@@ -3034,8 +3034,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.481856716681255e-16,
-            1.0181837245588372e-13
+            0.6108236778866883,
+            0.6605044333172954
         ],
         "text": "Sorry, I will not be getting food from here anytime soon :("
     },
@@ -3044,8 +3044,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1160258662436441e-08,
-            1.4673968772728356e-09
+            0.8129877507329183,
+            0.7820833931534923
         ],
         "text": "The cow tongue and cheek tacos are amazing."
     },
@@ -3054,8 +3054,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.137779027793585e-13,
-            1.111777660128248e-12
+            0.699904685800776,
+            0.690855655457777
         ],
         "text": "My friend did not like his Bloody Mary."
     },
@@ -3064,8 +3064,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            9.21537393976562e-15,
-            6.155870594988255e-15
+            0.64671399464612,
+            0.624880883419483
         ],
         "text": "They really want to make your experience a good one."
     },
@@ -3074,8 +3074,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            0.0001786409733529558,
-            0.00020924012952391026
+            0.9279059407686625,
+            0.9327618669559404
         ],
         "text": "Very disappointing!!!"
     },
@@ -3084,8 +3084,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.0153093289423293e-38,
-            2.5981095959709204e-36
+            0.0,
+            0.0
         ],
         "text": "a drive thru means you do not want to wait around for half an hour for your food, but somehow when we end up going here they make us wait and wait."
     },
@@ -3094,8 +3094,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.095878295286859e-05,
-            9.122895712658806e-07
+            0.9104225389724095,
+            0.863753006756276
         ],
         "text": "Ambience is perfect."
     },
@@ -3104,8 +3104,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.1332462989841324e-15,
-            1.1348629547986795e-13
+            0.6418808249656962,
+            0.6618818923834218
         ],
         "text": "Best of luck to the rude and non-customer service focused new management."
     },
@@ -3114,8 +3114,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.700128959376835e-17,
-            5.01088367520414e-17
+            0.5840547176717006,
+            0.5637986343599455
         ],
         "text": "Any grandmother can make a roasted chicken better than this one."
     },
@@ -3124,8 +3124,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.7427478622947384e-28,
-            1.5268045716476298e-26
+            0.2716095161761568,
+            0.28559743490936185
         ],
         "text": "I asked multiple times for the wine list and after some time of being ignored I went to the hostess and got one myself."
     },
@@ -3134,8 +3134,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            6.336447732578826e-14,
-            4.994898240992032e-14
+            0.6696011874398518,
+            0.6514621560873031
         ],
         "text": "Same evening, him and I are both drastically sick."
     },
@@ -3144,8 +3144,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.919154379785365e-10,
-            1.231381994914269e-09
+            0.7732317496919427,
+            0.7798570309263181
         ],
         "text": "High-quality chicken on the chicken Caesar salad."
     },
@@ -3154,8 +3154,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.257621553086336e-08,
-            3.618713243068113e-08
+            0.831386304397514,
+            0.8227782832622621
         ],
         "text": "We were promptly greeted and seated."
     },
@@ -3164,8 +3164,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.0445314870306911e-11,
-            3.947548204514267e-12
+            0.7302015040651093,
+            0.7069437867319106
         ],
         "text": "Tried to go here for lunch and it was a madhouse."
     },
@@ -3174,8 +3174,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2897308434734573e-18,
-            1.3936220269504757e-16
+            0.5413705174775252,
+            0.5767855835716305
         ],
         "text": "After waiting an hour and being seated, I was not in the greatest of moods."
     },
@@ -3184,8 +3184,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00021941961351042993,
-            3.526719421551522e-05
+            0.930346663521813,
+            0.910155434054615
         ],
         "text": "The Macarons here are insanely good."
     },
@@ -3194,8 +3194,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1582012623516884e-09,
-            1.2491616138440954e-10
+            0.786094641127152,
+            0.7508043445350954
         ],
         "text": "Our waiter was very attentive, friendly, and informative."
     },
@@ -3204,8 +3204,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.448115190861221e-12,
-            7.4942049682719e-11
+            0.7129789821117218,
+            0.7443173681412907
         ],
         "text": "Maybe if they weren't cold they would have been somewhat edible."
     },
@@ -3214,8 +3214,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.007922338818261524,
-            0.00024143091868143515
+            0.972920635539296,
+            0.9345787421585149
         ],
         "text": "Great food."
     },
@@ -3224,8 +3224,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0999673156288014e-09,
-            2.8037550953523696e-10
+            0.7854822556996727,
+            0.761069273496567
         ],
         "text": "Hands down my favorite Italian restaurant!"
     },
@@ -3234,8 +3234,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.3347784185316225e-15,
-            1.723408783555618e-15
+            0.6237783972648037,
+            0.6087169851407407
         ],
         "text": "That just SCREAMS LEGIT in my book...somethat's also pretty rare here in Vegas."
     },
@@ -3244,8 +3244,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.098603383178625e-10,
-            1.8059504543949995e-09
+            0.7763548379459502,
+            0.7847191419785735
         ],
         "text": "It was just not a fun experience."
     },
@@ -3254,8 +3254,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0599651359900807e-12,
-            2.319478027041285e-15
+            0.7030421741137578,
+            0.6124883183304606
         ],
         "text": "The atmosphere was great with a lovely duo of violinists playing songs we requested."
     },
@@ -3264,8 +3264,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.5624362127411005e-08,
-            7.267108344589278e-08
+            0.81698193339099,
+            0.8316307676610353
         ],
         "text": "Very convenient, since we were staying at the MGM!"
     },
@@ -3274,8 +3274,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.742324881878069e-20,
-            7.072497477326417e-19
+            0.5021604775716951,
+            0.5097044612915583
         ],
         "text": "The sweet potato tots were good but the onion rings were perfection or as close as I have had."
     },
@@ -3284,8 +3284,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4895390732473312e-09,
-            5.86026436124393e-09
+            0.7890813083584445,
+            0.79966425150287
         ],
         "text": "Google mediocre and I imagine Smashburger will pop up."
     },
@@ -3294,8 +3294,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.3398117034851e-06,
-            5.929882213228231e-06
+            0.8862373298889362,
+            0.8875182821579846
         ],
         "text": "dont go here."
     },
@@ -3304,8 +3304,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.222096767060032e-09,
-            2.993662773810903e-07
+            0.801449044045635,
+            0.8496054648672121
         ],
         "text": "I promise they won't disappoint."
     },
@@ -3314,8 +3314,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.4565205205666876e-12,
-            3.2600999056392297e-12
+            0.7130196692462775,
+            0.704514484801541
         ],
         "text": "As a sushi lover avoid this place by all means."
     },
@@ -3324,8 +3324,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00031565568729010745,
-            1.5248268548301147e-05
+            0.9346636579169187,
+            0.8995096082272798
         ],
         "text": "What a great double cheeseburger!"
     },
@@ -3334,8 +3334,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.212082081185075e-05,
-            6.3989541790208065e-06
+            0.915366889757591,
+            0.8884848669864593
         ],
         "text": "Awesome service and food."
     },
@@ -3344,8 +3344,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0015844677636523059,
-            0.00041848025904782057
+            0.9538153772165289,
+            0.9415623875682161
         ],
         "text": "A fantastic neighborhood gem !!!"
     },
@@ -3354,8 +3354,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.099729611110958e-09,
-            1.0874519649246442e-07
+            0.8105647563665707,
+            0.8367482559189624
         ],
         "text": "Service was slow and not attentive."
     },
@@ -3364,8 +3364,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            8.743824359239649e-15,
-            5.357343364053759e-14
+            0.6460904767367239,
+            0.6523515585051751
         ],
         "text": "I gave it 5 stars then, and I'm giving it 5 stars now."
     },
@@ -3374,8 +3374,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.645639484535483e-05,
-            7.0376624069082215e-06
+            0.9178317277432104,
+            0.8896928279828517
         ],
         "text": "Dessert: Panna Cotta was amazing."
     },
@@ -3384,8 +3384,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.272866159654933e-09,
-            3.541585383602983e-11
+            0.8094339036873999,
+            0.7348006601776074
         ],
         "text": "Very good food, great atmosphere.1"
     },
@@ -3394,8 +3394,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.10408038609529e-20,
-            9.534335714051297e-21
+            0.5085213102313142,
+            0.45502732376607924
         ],
         "text": "Prices are very reasonable, flavors are spot on, the sauce is home made, and the slaw is not drenched in mayo."
     },
@@ -3404,8 +3404,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.485688771377383e-16,
-            1.0668609855351352e-15
+            0.6132228217376812,
+            0.6026279688210371
         ],
         "text": "The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!"
     },
@@ -3414,8 +3414,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0008519426854196679,
-            0.0002873712149487524
+            0.9464497509328899,
+            0.9367903579876566
         ],
         "text": "Good food , good service ."
     },
@@ -3424,8 +3424,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.765102601481355e-06,
-            2.3363899488521263e-06
+            0.8906823290709337,
+            0.8756928257876102
         ],
         "text": "It was absolutely amazing."
     },
@@ -3434,8 +3434,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.4053508340715223e-06,
-            1.8045288222841567e-06
+            0.8703910059100687,
+            0.8724132334831408
         ],
         "text": "will definitely be back!"
     },
@@ -3444,8 +3444,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.131601645630807e-19,
-            1.5572871706859775e-20
+            0.5245677583598248,
+            0.461256602238723
         ],
         "text": "Hawaiian Breeze, Mango Magic, and Pineapple Delight are the smoothies that I've tried so far and they're all good."
     },
@@ -3454,8 +3454,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.607923216747437e-16,
-            1.3254570271489162e-14
+            0.6134844272513522,
+            0.6346182642235023
         ],
         "text": "Needless to say, we will never be back here again."
     },
@@ -3464,8 +3464,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0152026692548526e-21,
-            4.494378082321746e-20
+            0.45652897036935713,
+            0.47471335937394066
         ],
         "text": "Anyways, The food was definitely not filling at all, and for the price you pay you should expect more."
     },
@@ -3474,8 +3474,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.593991899828436e-12,
-            7.198113477251474e-11
+            0.7136660565509592,
+            0.7438055598728839
         ],
         "text": "The chips that came out were dripping with grease, and mostly not edible."
     },
@@ -3484,8 +3484,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            8.229880519220479e-16,
-            8.516171024885692e-17
+            0.6180379461122854,
+            0.5705322636099396
         ],
         "text": "Our server was very nice and attentive as were the other serving staff."
     },
@@ -3494,8 +3494,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            4.389092045720856e-10,
-            2.7960671907190144e-10
+            0.7745760718753478,
+            0.761034411928741
         ],
         "text": "I work in the hospitality industry in Paradise Valley and have refrained from recommending Cibo any longer."
     },
@@ -3504,8 +3504,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.777635815357397e-07,
-            2.196648658705404e-08
+            0.8575833266337863,
+            0.8164403889974092
         ],
         "text": "The atmosphere here is fun."
     },
@@ -3514,8 +3514,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.110129265984495e-15,
-            1.123541624558127e-15
+            0.6338198649124198,
+            0.6032852037751281
         ],
         "text": "Service is quick and even to go orders are just like we like it!"
     },
@@ -3524,8 +3524,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            6.267573300702977e-14,
-            2.881672062110788e-13
+            0.6694714510181283,
+            0.6737132073491557
         ],
         "text": "That said, our mouths and bellies were still quite pleased."
     },
@@ -3534,8 +3534,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.7475747393223975e-05,
-            3.284242456557173e-05
+            0.9003115891262615,
+            0.9092510382953883
         ],
         "text": "Not my thing."
     },
@@ -3544,8 +3544,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.019791183434513e-13,
-            1.6896094703264865e-11
+            0.7011262336062284,
+            0.7254042959323884
         ],
         "text": "If you are reading this please don't go there."
     },
@@ -3554,8 +3554,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.708143376807934e-10,
-            8.043034892557443e-11
+            0.777695369684707,
+            0.745214709199689
         ],
         "text": "I loved the grilled pizza, reminded me of legit Italian pizza."
     },
@@ -3564,8 +3564,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.6119176618209086e-30,
-            9.858574779029205e-35
+            0.23082464656403578,
+            0.04616616618685132
         ],
         "text": "Only Pros : Large seating area/ Nice bar area/ Great simple drink menu/ The BEST brick oven pizza with homemade dough!"
     },
@@ -3574,8 +3574,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.4798668854700086e-06,
-            2.6745016650274704e-05
+            0.8841528585799341,
+            0.9066435273348548
         ],
         "text": "After one bite, I was hooked."
     },
@@ -3584,8 +3584,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.2837494320487604e-09,
-            1.8217151670522563e-11
+            0.7941543015545696,
+            0.7263600991704444
         ],
         "text": "The food was great as always, compliments to the chef."
     },
@@ -3594,8 +3594,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.774050652383565e-07,
-            8.706060107511309e-09
+            0.8598319821405995,
+            0.8046898260548178
         ],
         "text": "Awesome selection of beer."
     },
@@ -3604,8 +3604,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            7.892955104986969e-37,
-            3.076185980197089e-35
+            0.043539387960603304,
+            0.03137921139984856
         ],
         "text": "One nice thing was that they added gratuity on the bill since our party was larger than 6 or 8, and they didn't expect more tip than that."
     },
@@ -3614,8 +3614,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.490119652924563e-08,
-            1.7151392072020232e-08
+            0.8338863137250796,
+            0.8132987926870439
         ],
         "text": "The Han Nan Chicken was also very tasty."
     },
@@ -3624,8 +3624,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.321052215297446e-10,
-            1.255612740013656e-09
+            0.7768617719708255,
+            0.7801044416642773
         ],
         "text": "As for the service, I thought it was good."
     },
@@ -3634,8 +3634,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.456391621700136e-16,
-            4.7972117791714675e-15
+            0.610756038020321,
+            0.6217147485100134
         ],
         "text": "Ryan's Bar is definitely one Edinburgh establishment I won't be revisiting."
     },
@@ -3644,8 +3644,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.7387350327060096e-12,
-            1.1749362907788154e-12
+            0.7089172746772386,
+            0.6915571822052011
         ],
         "text": "Nicest Chinese restaurant I've been in a while."
     },
@@ -3654,8 +3654,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.88744318758568e-16,
-            1.883123360541117e-14
+            0.6159241004406991,
+            0.6390769389944552
         ],
         "text": "Friend's pasta -- also bad, he barely touched it."
     },
@@ -3664,8 +3664,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.3904054018809844e-09,
-            1.6770250025975326e-09
+            0.8080949000911155,
+            0.7837787701327779
         ],
         "text": "I love the decor with the Chinese calligraphy wall paper."
     },
@@ -3674,8 +3674,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.2095044379679507e-27,
-            5.580821626620755e-24
+            0.3017599549923704,
+            0.3605234684728601
         ],
         "text": "I'm not sure how long we stood there but it was long enough for me to begin to feel awkwardly out of place."
     },
@@ -3684,8 +3684,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.474659649742308e-15,
-            5.177593768556378e-14
+            0.6405323764474227,
+            0.6519182561777779
         ],
         "text": "When I opened the sandwich, I was impressed, but not in a good way."
     },
@@ -3694,8 +3694,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.5493370600707433e-22,
-            2.833297995756012e-21
+            0.44012547312193706,
+            0.4396206916686929
         ],
         "text": "There was a warm feeling with the service and I felt like their guest for a special treat."
     },
@@ -3704,8 +3704,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.1176255478562665e-20,
-            7.17539945226224e-21
+            0.4925898867060766,
+            0.4514184654418337
         ],
         "text": "I always order from the vegetarian menu during dinner, which has a wide array of options to choose from."
     },
@@ -3714,8 +3714,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.380797250372555e-13,
-            1.6874835231641883e-11
+            0.6925532808420805,
+            0.7253883105730556
         ],
         "text": "I got to enjoy the seafood salad, with a fabulous vinegrette."
     },
@@ -3724,8 +3724,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            6.109747271018711e-16,
-            2.008800227830265e-15
+            0.6145018105381359,
+            0.6106625088001976
         ],
         "text": "The wontons were thin, not thick and chewy, almost melt in your mouth."
     },
@@ -3734,8 +3734,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.202084265985619e-19,
-            1.7140096317433092e-19
+            0.5305923468066986,
+            0.49170876476447667
         ],
         "text": "We were sat right on time and our server from the get go was FANTASTIC!"
     },
@@ -3744,8 +3744,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.047089669032985e-17,
-            1.8861835069088477e-15
+            0.5870459979272262,
+            0.6098628578146276
         ],
         "text": "Main thing I didn't enjoy is that the crowd is of older crowd, around mid 30s and up."
     },
@@ -3754,8 +3754,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2157913127681145e-19,
-            1.0140322835815265e-17
+            0.5133362413548438,
+            0.5435137734952276
         ],
         "text": "I had to wait over 30 minutes to get my drink and longer to get 2 arepas."
     },
@@ -3764,8 +3764,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.5793193746770578e-07,
-            1.8582569462143616e-09
+            0.8444429620331713,
+            0.7850816502718885
         ],
         "text": "This is a GREAT place to eat!"
     },
@@ -3774,8 +3774,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.987292379960209e-07,
-            2.365621632451967e-08
+            0.8620959656821514,
+            0.817381298453242
         ],
         "text": "The jalapeno bacon is soooo good."
     },
@@ -3784,8 +3784,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.7195289841308289e-09,
-            5.1822736182728086e-09
+            0.7907857564186834,
+            0.7981032102545038
         ],
         "text": "The service was poor and thats being nice."
     },
@@ -3794,8 +3794,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.6635443195312262e-07,
-            5.4921816410335544e-08
+            0.8450597251649176,
+            0.8280753390686577
         ],
         "text": "Food was good, service was good, Prices were good."
     },
@@ -3804,8 +3804,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            9.362636369487701e-13,
-            3.5634369258902347e-13
+            0.7015690811487346,
+            0.6764093632170076
         ],
         "text": "The place was not clean and the food oh so stale!"
     },
@@ -3814,8 +3814,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.932704860128033e-07,
-            1.3139338438533221e-05
+            0.8662713849053251,
+            0.8976196718312057
         ],
         "text": "But the service was beyond bad."
     },
@@ -3824,8 +3824,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.5551295722113447e-09,
-            1.0479979253808965e-09
+            0.7895928450374199,
+            0.7778096556511016
         ],
         "text": "I'm so happy to be here!!!\""
     },
@@ -3834,8 +3834,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            0.00015533997682865767,
-            0.0005633388102566814
+            0.9262468596744867,
+            0.9453364318587758
         ],
         "text": "Tasted like dirt."
     },
@@ -3844,8 +3844,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.2678547023269973e-20,
-            2.7698045438103174e-19
+            0.49340349564272556,
+            0.4978023240621209
         ],
         "text": "One of the few places in Phoenix that I would definately go back to again ."
     },
@@ -3854,8 +3854,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.3810870575418998e-13,
-            2.0173054299561946e-13
+            0.6788501473930015,
+            0.6691855451381579
         ],
         "text": "It's close to my house, it's low-key, non-fancy, affordable prices, good food."
     },
@@ -3864,8 +3864,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.356087707293397e-17,
-            1.20272952463513e-14
+            0.5876375886055889,
+            0.6333846278544681
         ],
         "text": "My sashimi was poor quality being soggy and tasteless."
     },
@@ -3874,8 +3874,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.457561072390254e-18,
-            1.4800433909269722e-16
+            0.5490240251812379,
+            0.5775494699984944
         ],
         "text": "the food is not tasty at all, not to say its real traditional Hunan style ."
     },
@@ -3884,8 +3884,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.4065359840412177e-05,
-            1.1626547543576485e-06
+            0.8977344576740618,
+            0.8668319483403699
         ],
         "text": "The flair bartenders are absolutely amazing!"
     },
@@ -3894,8 +3894,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.935713974303606e-13,
-            6.234890461657887e-13
+            0.6939690666690616,
+            0.6835122178671778
         ],
         "text": "These were so good we ordered them twice."
     },
@@ -3904,8 +3904,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.127503023233565e-16,
-            2.306596051078805e-15
+            0.6163308051774445,
+            0.6124176078280261
         ],
         "text": "So in a nutshell: 1) The restaraunt smells like a combination of a dirty fish market and a sewer."
     },
@@ -3914,8 +3914,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.811196182211505e-07,
-            7.558026535439471e-07
+            0.8460691798664421,
+            0.8613638216947707
         ],
         "text": "My girlfriend's veal was very bad."
     },
@@ -3924,8 +3924,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.1738242959876174e-07,
-            5.576108133636795e-08
+            0.848235599879024,
+            0.8282678874072811
         ],
         "text": "Join the club and get awesome offers via email."
     },
@@ -3934,8 +3934,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.684037888482145e-23,
-            5.646419437597338e-23
+            0.42423412633190305,
+            0.3899065310598169
         ],
         "text": "Perfect for someone (me) who only likes beer ice cold, or in this case, even colder."
     },
@@ -3944,8 +3944,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.0398356388366253e-08,
-            1.5855509115467577e-08
+            0.8121483525955336,
+            0.8123013287170133
         ],
         "text": "The nachos are a MUST HAVE!"
     },
@@ -3954,8 +3954,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.86206461948986e-10,
-            3.748133756656374e-08
+            0.7798809500589922,
+            0.8232244313676585
         ],
         "text": "We will not be coming back."
     },
@@ -3964,8 +3964,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            1.214896242390666e-25,
-            3.7694604688255343e-23
+            0.3493268275226252,
+            0.3847760188704791
         ],
         "text": "I don't have very many words to say about this place, but it does everything pretty well."
     },
@@ -3974,8 +3974,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0257707001245728e-13,
-            2.3006968284417623e-16
+            0.6753194653476686,
+            0.5831503977777706
         ],
         "text": "The staff is super nice and very quick even with the crazy crowds of the downtown juries, lawyers, and court staff."
     },
@@ -3984,8 +3984,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.21790051113307e-08,
-            1.0488541328362694e-11
+            0.8312962809335094,
+            0.7193506310039108
         ],
         "text": "Great atmosphere, friendly and fast service."
     },
@@ -3994,8 +3994,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            4.181861437947038e-29,
-            9.663223742797342e-27
+            0.25466647234502426,
+            0.2797896286624485
         ],
         "text": "When I received my Pita it was huge it did have a lot of meat in it so thumbs up there."
     },
@@ -4004,8 +4004,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.852685521504204e-06,
-            2.1464395465064207e-06
+            0.882362475585285,
+            0.8746162093204931
         ],
         "text": "The classic Maine Lobster Roll was fantastic."
     },
@@ -4014,8 +4014,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.00022202599532379652,
-            1.994479224629864e-06
+            0.9304868398127256,
+            0.8736839398564497
         ],
         "text": "This place is great!!!!!!!!!!!!!!"
     },
@@ -4024,8 +4024,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            3.640780706921664e-05,
-            1.7203174772442342e-05
+            0.9090243643023153,
+            0.901041157547142
         ],
         "text": "I'm super pissd."
     },
@@ -4034,8 +4034,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.7813716086210373e-10,
-            1.98029268187967e-10
+            0.7728069056234866,
+            0.7566545216838221
         ],
         "text": "Lastly, the mozzarella sticks, they were the best thing we ordered."
     },
@@ -4044,8 +4044,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.311611312902521e-05,
-            0.0001352256914299046
+            0.9036320301592132,
+            0.9272193844925957
         ],
         "text": "The service was terrible though."
     },
@@ -4054,8 +4054,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            6.268969279730732e-05,
-            1.8805089832224423e-05
+            0.9154751016685581,
+            0.90217157003504
         ],
         "text": "I love this place."
     },
@@ -4064,8 +4064,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.4983906740942966e-12,
-            1.1277192831810205e-11
+            0.7172166626392131,
+            0.7202711121142826
         ],
         "text": "I can say that the desserts were yummy."
     },
@@ -4074,8 +4074,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.889514141128159e-05,
-            0.00019317955918557783
+            0.9062809146908756,
+            0.9317478963066079
         ],
         "text": "The food was terrible."
     },
@@ -4084,8 +4084,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.3147460345723826e-12,
-            5.828437659872369e-10
+            0.712314000390124,
+            0.7703604132490027
         ],
         "text": "Do not waste your money here!"
     },
@@ -4094,8 +4094,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            5.605608479402875e-16,
-            1.1681320598814817e-15
+            0.6134795264399274,
+            0.6037793513294204
         ],
         "text": "I love that they put their food in nice plastic containers as opposed to cramming it in little paper takeout boxes."
     },
@@ -4104,8 +4104,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.365551595074071e-11,
-            2.8922947299424414e-09
+            0.75165592172787,
+            0.7906987107946879
         ],
         "text": "Won't ever go here again."
     },
@@ -4114,8 +4114,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.944386669040803e-09,
-            7.177613044102064e-09
+            0.7922446280587632,
+            0.8022387417232183
         ],
         "text": "Food quality has been horrible."
     },
@@ -4124,8 +4124,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.680440982532904e-24,
-            9.053618607872264e-22
+            0.38981751822303035,
+            0.4251357747863824
         ],
         "text": "For that price I can think of a few place I would have much rather gone."
     },
@@ -4134,8 +4134,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.126382906523028e-22,
-            3.473208906230458e-21
+            0.4538870434022758,
+            0.4422061688221385
         ],
         "text": "I do love sushi, but I found Kabuki to be over-priced, over-hip and under-services."
     },
@@ -4144,8 +4144,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.1390178045901732e-10,
-            5.961907702437754e-11
+            0.7585629321864773,
+            0.7414131840587905
         ],
         "text": "Do yourself a favor and stay away from this dish."
     },
@@ -4154,8 +4154,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6747591251839647e-05,
-            2.6684469959527054e-05
+            0.8998063739692763,
+            0.9066147518602699
         ],
         "text": "Very poor service."
     },
@@ -4164,8 +4164,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.5139453499957085e-27,
-            7.307275080250755e-24
+            0.30329229401351254,
+            0.36394560356010264
         ],
         "text": "I have never had such bland food which surprised me considering the article we read focused so much on their spices and flavor."
     },
@@ -4174,8 +4174,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.752335799434118e-12,
-            6.257812853061068e-12
+            0.7208530717637618,
+            0.7127935071321008
         ],
         "text": "Food is way overpriced and portions are fucking small."
     },
@@ -4184,8 +4184,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.0295932003536803e-17,
-            2.3131056766027177e-18
+            0.5660298382634652,
+            0.524749299042593
         ],
         "text": "I recently tried Caballero's and I have been back every week since!"
     },
@@ -4194,8 +4194,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.05591162867716e-14,
-            1.1061838893242825e-13
+            0.673840230843868,
+            0.6615569168469
         ],
         "text": "for 40 bucks a head, i really expect better food."
     },
@@ -4204,8 +4204,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.422120537511817e-08,
-            3.937817956320499e-06
+            0.8262887803331844,
+            0.8823206328093021
         ],
         "text": "I won't be back."
     },
@@ -4214,8 +4214,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.530176333052848e-07,
-            3.7040328457411674e-06
+            0.8612927995124202,
+            0.8815435510128924
         ],
         "text": "This place deserves no stars."
     },
@@ -4224,8 +4224,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            9.321043348598473e-24,
-            1.278052566566454e-22
+            0.40084833101414097,
+            0.40027828754951467
         ],
         "text": "In fact I'm going to round up to 4 stars, just because she was so awesome."
     },
@@ -4234,8 +4234,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.790311386114576e-11,
-            1.4535698779276804e-09
+            0.7365977226068594,
+            0.7819631895544494
         ],
         "text": "I probably would not go here again."
     },
@@ -4244,8 +4244,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.3199994230336635e-08,
-            8.957016130348045e-11
+            0.8216746918086132,
+            0.746581238423645
         ],
         "text": "The price is reasonable and the service is great."
     },
@@ -4254,8 +4254,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.812376252461275e-27,
-            2.889219601463302e-24
+            0.31675202915517475,
+            0.3521647544771451
         ],
         "text": "The Wife hated her meal (coconut shrimp), and our friends really did not enjoy their meals, either."
     },
@@ -4264,8 +4264,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0682585808395136e-13,
-            6.4414935946994625e-12
+            0.6758012473912025,
+            0.7131608121047567
         ],
         "text": "My fella got the huevos rancheros and they didn't look too appealing."
     },
@@ -4274,8 +4274,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.527176928542743e-14,
-            1.2229554261410766e-10
+            0.6699532293176886,
+            0.7505351513959067
         ],
         "text": "I probably won't be coming back here."
     },
@@ -4284,8 +4284,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0002666026220634e-12,
-            1.318592468841648e-11
+            0.7023540324296634,
+            0.7222564282129331
         ],
         "text": "Worst food/service I've had in a while."
     },
@@ -4294,8 +4294,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.478233363298687e-32,
-            2.272019216601357e-29
+            0.17047916253008288,
+            0.20294008815051667
         ],
         "text": "Hot dishes are not hot, cold dishes are close to room temp.I watched staff prepare food with BARE HANDS, no gloves.Everything is deep fried in oil."
     },
@@ -4304,8 +4304,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            2.1275812256073478e-06,
-            2.6751348330352957e-07
+            0.8753137974848786,
+            0.8481771394284862
         ],
         "text": "Always a pleasure dealing with him."
     },
@@ -4314,8 +4314,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.3909895192667535e-17,
-            8.417678460584987e-19
+            0.5801792908829666,
+            0.511915175350932
         ],
         "text": "This place is awesome if you want something light and healthy during the summer."
     },
@@ -4324,8 +4324,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            5.031071842224739e-14,
-            2.229906156797415e-15
+            0.6668627769949477,
+            0.6119882975481645
         ],
         "text": "The service was great, even the manager came and helped with our table."
     },
@@ -4334,8 +4334,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.5882375109511687e-13,
-            4.401892673158527e-13
+            0.6805091342739211,
+            0.6790922422454951
         ],
         "text": "this is the worst sushi i have ever eat besides Costco's."
     },
@@ -4344,8 +4344,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.1022409070863677e-16,
-            1.740103608763065e-19
+            0.5941726502761648,
+            0.4919005984475825
         ],
         "text": "All in all an excellent restaurant highlighted by great service, a unique menu, and a beautiful setting."
     },
@@ -4354,8 +4354,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            9.450761113641075e-15,
-            8.998280929016686e-15
+            0.6470134003679042,
+            0.6297008097911635
         ],
         "text": "My boyfriend and i sat at the bar and had a completely delightful experience."
     },
@@ -4364,8 +4364,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            3.8335572009932264e-05,
-            3.8892344880282305e-05
+            0.9096368364723671,
+            0.9113977104154387
         ],
         "text": "Go To Place for Gyros."
     },
@@ -4374,8 +4374,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.371802125192568e-14,
-            1.2558023512777524e-13
+            0.6676406728436155,
+            0.6631675721388329
         ],
         "text": "I found a six inch long piece of wire in my salsa."
     },
@@ -4384,8 +4384,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            0.0004349519351202408,
-            0.00017704934036638572
+            0.9384692292281109,
+            0.9306408702085319
         ],
         "text": "We definately enjoyed ourselves."
     },
@@ -4394,8 +4394,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.702973211833284e-12,
-            3.423426409787632e-11
+            0.7280352222202731,
+            0.7343698366405704
         ],
         "text": "I had about two bites and refused to eat anymore."
     },
@@ -4404,8 +4404,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.660199304859731e-05,
-            2.4143091868143486e-05
+            0.911954782134543,
+            0.905344045486961
         ],
         "text": "Seriously killer hot chai latte."
     },
@@ -4414,8 +4414,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            1.5111323202273836e-09,
-            3.861964503603396e-10
+            0.7892521586378,
+            0.7651348901955034
         ],
         "text": "Their rotating beers on tap is also a highlight of this place."
     },
@@ -4424,8 +4424,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            5.47761501621208e-07,
-            2.6686365297971474e-06
+            0.8592063446184139,
+            0.8773809569584842
         ],
         "text": "Pricing is a bit of a concern at Mellow Mushroom."
     },
@@ -4434,8 +4434,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.550975883652082e-07,
-            4.561447856329415e-06
+            0.8570063583973384,
+            0.8841871828155542
         ],
         "text": "Worst Thai ever."
     },
@@ -4444,8 +4444,8 @@
         "true_label": 1,
         "predicted_label": 0,
         "confidence_score": [
-            2.7915605113257724e-19,
-            1.2439642347469168e-18
+            0.5232032873616188,
+            0.5168738348456835
         ],
         "text": "If you stay in Vegas you must get breakfast here at least once."
     },
@@ -4454,8 +4454,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.872914634365032e-07,
-            6.928190990819519e-07
+            0.8515456331687554,
+            0.8602590845795145
         ],
         "text": "Highly unprofessional and rude to a loyal patron!"
     },
@@ -4464,8 +4464,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.932120113907944e-06,
-            5.487456067764706e-08
+            0.8852945365436043,
+            0.8280644100940484
         ],
         "text": "Overall, a great experience."
     },
@@ -4474,8 +4474,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.991219519056009e-14,
-            4.1783044738869805e-13
+            0.6641142650319083,
+            0.6784303872632844
         ],
         "text": "Also, I feel like the chips are bought, not made in house."
     },
@@ -4484,8 +4484,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.644156952181577e-16,
-            3.0047783532125755e-15
+            0.6083674700464361,
+            0.6157749466381273
         ],
         "text": "After the disappointing dinner we went elsewhere for dessert."
     },
@@ -4494,8 +4494,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            7.733331410112183e-08,
-            1.2974877651675646e-08
+            0.8359667693485568,
+            0.8097556613636281
         ],
         "text": "The chips and sals a here is amazing!!!!!!!!!!!!!!!!!!!"
     },
@@ -4504,8 +4504,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.8583151524912627e-07,
-            1.350890326682169e-05
+            0.8463740536712161,
+            0.8979718503134114
         ],
         "text": "We won't be returning."
     },
@@ -4514,8 +4514,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            3.865445038201935e-11,
-            6.948610375801563e-12
+            0.7457344987273637,
+            0.7141229663517821
         ],
         "text": "This is my new fav Vegas buffet spot."
     },
@@ -4524,8 +4524,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.2142121627288132e-31,
-            3.519761179151719e-32
+            0.1853194701803227,
+            0.12079354895777572
         ],
         "text": "I seriously cannot believe that the owner has so many unexperienced employees that all are running around like chickens with their heads cut off."
     },
@@ -4534,8 +4534,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.2748629072774775e-28,
-            1.242904204169313e-25
+            0.2747725607892283,
+            0.31222013437598695
         ],
         "text": "i felt insulted and disrespected, how could you talk and judge another human being like that?"
     },
@@ -4544,8 +4544,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.008964237667154e-17,
-            4.126323515317407e-15
+            0.5887982750031523,
+            0.6198020504567917
         ],
         "text": "How can you call yourself a steakhouse if you can't properly cook a steak, I don't understand!"
     },
@@ -4554,8 +4554,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.8326982429046757e-21,
-            3.744253895998635e-18
+            0.46354104354718284,
+            0.5308643151646092
         ],
         "text": "The only thing I wasn't too crazy about was their guacamole as I don't like it pur\u00c3\u00a9ed."
     },
@@ -4564,8 +4564,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4450430882156938e-16,
-            7.181849027486314e-15
+            0.5973871802090127,
+            0.6268380525074684
         ],
         "text": "There is really nothing for me at postinos, hope your experience is better"
     },
@@ -4574,8 +4574,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            0.0016717251412615276,
-            0.0004926363684835756
+            0.954451739895159,
+            0.9436337095119469
         ],
         "text": "This place is disgusting!"
     },
@@ -4584,8 +4584,8 @@
         "true_label": 1,
         "predicted_label": 1,
         "confidence_score": [
-            4.42587099234256e-11,
-            3.756877034117612e-11
+            0.7473416847569709,
+            0.7355499239321461
         ],
         "text": "Every time I eat here, I see caring teamwork to a professional degree."
     },
@@ -4594,8 +4594,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2435685599319565e-13,
-            7.410707966207834e-12
+            0.6776050728339034,
+            0.7149404193059191
         ],
         "text": "However, there was so much garlic in the fondue, it was barely edible."
     },
@@ -4604,8 +4604,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.6147046769956883e-23,
-            1.5749530032067418e-20
+            0.41309256963807617,
+            0.4613998198933754
         ],
         "text": "I could barely stomach the meal, but didn't complain because it was a business lunch."
     },
@@ -4614,8 +4614,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2236089009417902e-21,
-            4.369003742968967e-19
+            0.4587454360679829,
+            0.5035888438556334
         ],
         "text": "It also took her forever to bring us the check when we asked for it."
     },
@@ -4624,8 +4624,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.660199304859714e-05,
-            6.438157831504935e-05
+            0.911954782134543,
+            0.9177971121665075
         ],
         "text": "Disappointing experience."
     },
@@ -4634,8 +4634,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.23453344213872e-22,
-            2.2504258051955265e-20
+            0.4540439842732876,
+            0.4659311131038175
         ],
         "text": "If you want to wait for mediocre food and downright terrible service, then this is the place for you."
     },
@@ -4644,8 +4644,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.2476481126345155e-10,
-            3.985645704777832e-08
+            0.7596442870440134,
+            0.8240045186008073
         ],
         "text": "We won't be going back."
     },
@@ -4654,8 +4654,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.226059524575773e-13,
-            2.6368480460965816e-12
+            0.6774367486089461,
+            0.701820630118646
         ],
         "text": "The place was fairly clean but the food simply wasn't worth it."
     },
@@ -4664,8 +4664,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.0761650999411171e-14,
-            5.2840179905970555e-14
+            0.6485553379074075,
+            0.6521765831574414
         ],
         "text": "The meat was pretty dry, I had the sliced brisket and pulled pork."
     },
@@ -4674,8 +4674,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.88255130074068e-07,
-            7.787966496173744e-07
+            0.8551206969570617,
+            0.8617443306303297
         ],
         "text": "It was equally awful."
     },
@@ -4684,8 +4684,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            8.784461201202194e-11,
-            5.13023939853346e-10
+            0.7554792990732067,
+            0.7687403864460366
         ],
         "text": "very slow at seating even with reservation."
     },
@@ -4694,8 +4694,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            9.395092142343135e-17,
-            1.2300262264612915e-15
+            0.5922763793664761,
+            0.6044348642111484
         ],
         "text": "The chipolte ranch dipping sause was tasteless, seemed thin and watered down with no heat."
     },
@@ -4704,8 +4704,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.0607387673162053e-05,
-            7.605614109921877e-05
+            0.9022683134652146,
+            0.9199129051450021
         ],
         "text": "I was VERY disappointed!!"
     },
@@ -4714,8 +4714,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.347966590517013e-22,
-            5.634289836693176e-21
+            0.44336049176352343,
+            0.4483486205980658
         ],
         "text": "Maybe it's just their Vegetarian fare, but I've been twice and I thought it was average at best."
     },
@@ -4724,8 +4724,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            5.790651627432408e-25,
-            8.941274303351108e-26
+            0.3678640488805782,
+            0.3080384548603029
         ],
         "text": "The tables outside are also dirty a lot of the time and the workers are not always friendly and helpful with the menu."
     },
@@ -4734,8 +4734,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.910250619872919e-11,
-            2.549941476194156e-10
+            0.7423651292042117,
+            0.7598645156574415
         ],
         "text": "But then they came back cold."
     },
@@ -4744,8 +4744,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.4304833363010048e-11,
-            2.197599135466477e-10
+            0.7402266221537864,
+            0.7579764881517697
         ],
         "text": "Then our food came out, disappointment ensued."
     },
@@ -4754,8 +4754,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            7.876147877349208e-24,
-            2.2635478215523723e-23
+            0.3988488712883138,
+            0.37830083996827624
         ],
         "text": "The only reason to eat here would be to fill up before a night of binge drinking just to get some carbs in your stomach."
     },
@@ -4764,8 +4764,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            3.688574674311461e-15,
-            1.753008822379084e-15
+            0.6358447303644874,
+            0.6089331991024292
         ],
         "text": "Insults, profound deuchebaggery, and had to go outside for a smoke break while serving just to solidify it."
     },
@@ -4774,8 +4774,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            6.900974969022678e-32,
-            3.226401584315403e-30
+            0.17861227659508694,
+            0.17815802352631738
         ],
         "text": "If someone orders two tacos don't' you think it may be part of customer service to ask if it is combo or ala cart?"
     },
@@ -4784,8 +4784,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.010739670140896e-17,
-            1.959687082431088e-15
+            0.5821718450871701,
+            0.6103482352542153
         ],
         "text": "After all the rave reviews I couldn't wait to eat here......what a disappointment!"
     },
@@ -4794,8 +4794,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.3151159520103613e-10,
-            2.612178335821341e-09
+            0.7602694557366122,
+            0.789405375913327
         ],
         "text": "It's NOT hard to make a decent hamburger."
     },
@@ -4804,8 +4804,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.482565122078889e-09,
-            7.568531422546526e-07
+            0.795145199002836,
+            0.8613814562391231
         ],
         "text": "But I don't like it."
     },
@@ -4814,8 +4814,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.697112366419023e-08,
-            6.15839199183957e-07
+            0.827206291591198,
+            0.8587636561017804
         ],
         "text": "Hell no will I go back"
     },
@@ -4824,8 +4824,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6048193241537084e-25,
-            2.5110414732528396e-22
+            0.35263108452232916,
+            0.4088529751951614
         ],
         "text": "I don't know what the big deal is about this place, but I won't be back ya'all ."
     },
@@ -4834,8 +4834,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.6334394164940162e-28,
-            5.260716011684179e-26
+            0.2708405846141493,
+            0.30130410915638994
         ],
         "text": "I immediately said I wanted to talk to the manager but I did not want to talk to the guy who was doing shots of fireball behind the bar."
     },
@@ -4844,8 +4844,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.4467162716077351e-12,
-            3.8529335491944646e-11
+            0.706734698026234,
+            0.7358704688872184
         ],
         "text": "Your servers suck, wait, correction, our server Heimer sucked."
     },
@@ -4854,8 +4854,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.8710084410055635e-11,
-            5.6042669806464854e-11
+            0.7422039733692235,
+            0.7406277520697453
         ],
         "text": "What happened next was pretty....off putting."
     },
@@ -4864,8 +4864,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.2060976425746459e-10,
-            1.4798767495769621e-09
+            0.7664102062590421,
+            0.7821909170956136
         ],
         "text": "Overpriced for what you are getting."
     },
@@ -4874,8 +4874,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.726555935978771e-07,
-            7.328599261351203e-07
+            0.8546339003676656,
+            0.8609724440094767
         ],
         "text": "I vomited in the bathroom mid lunch."
     },
@@ -4884,8 +4884,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.797757128857188e-28,
-            1.9137633060596885e-25
+            0.28363086653675196,
+            0.31770019482128753
         ],
         "text": "I have been to very few places to eat that under no circumstances would I ever return to, and this tops the list."
     },
@@ -4894,8 +4894,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.941360096994333e-12,
-            1.4502070789041316e-11
+            0.7151579045332288,
+            0.7234643892093255
         ],
         "text": "All in all, Ha Long Bay was a bit of a flop."
     },
@@ -4904,8 +4904,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.830293434718307e-24,
-            1.4344151614751824e-22
+            0.38669963602275914,
+            0.40174371034506795
         ],
         "text": "Shrimp- When I unwrapped it (I live only 1/2 a mile from Brushfire) it was literally ice cold."
     },
@@ -4914,8 +4914,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            2.47997027785797e-10,
-            2.8963483464767058e-09
+            0.7677993396514964,
+            0.7907164927232309
         ],
         "text": "It really is impressive that the place hasn't closed down."
     },
@@ -4924,8 +4924,8 @@
         "true_label": 0,
         "predicted_label": 1,
         "confidence_score": [
-            1.0952857393065655e-12,
-            9.40118506624566e-13
+            0.7034312890035177,
+            0.688726336353294
         ],
         "text": "I would avoid this place if you are staying in the Mirage."
     },
@@ -4934,8 +4934,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.6605032235996324e-14,
-            2.593504855899731e-13
+            0.6659545493061136,
+            0.672375500992163
         ],
         "text": "Spend your money and time some place else."
     },
@@ -4944,8 +4944,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            3.2732777379967423e-06,
-            8.603138263325336e-06
+            0.8804277950894077,
+            0.8922429259176863
         ],
         "text": "the presentation of the food was awful."
     },
@@ -4954,8 +4954,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            1.7022580739779115e-12,
-            1.5843956937860118e-11
+            0.7086655882648283,
+            0.7245879848017875
         ],
         "text": "I can't tell you how disappointed I was."
     },
@@ -4964,8 +4964,8 @@
         "true_label": 0,
         "predicted_label": 0,
         "confidence_score": [
-            4.672481141968686e-16,
-            1.8137685781614867e-14
+            0.6113181286784474,
+            0.638600504152925
         ],
         "text": "I think food should have flavor and texture and both were lacking."
     }
