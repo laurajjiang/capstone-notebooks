@@ -13,6 +13,14 @@ def say_hello():
 #json filepath NEEDS to be repaired
 
 class ConfusionMatrix:
+
+	data_file_name = ""
+
+	def __init__(self, json_name):
+		# JSON file must be located in libraries directory with python file. 
+		self.data_file_name = "\"" + json_name + "\""
+
+
 	d3_source_html = '<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>'
 
 	html_template = Template('''
@@ -138,7 +146,7 @@ class ConfusionMatrix:
 		    d3.select("svg").remove()
 		    var currentValue = this.value;
 		    d3.select("#textInput").text(currentValue)
-		    d3.json("predict.json", function(d) {
+		    d3.json($conf_data_filepath, function(d) {
 		        console.log(d); // Ensuring that data is properly read in.
 		        console.log(Object.keys(extractTypes(d))); // Logging list of possible types
 
@@ -380,10 +388,8 @@ class ConfusionMatrix:
 		})
 		''')
 
-	json_filepath = "\"predict.json\"" # "\"../predict.json\""
-
 	def display_internals(self):
-		print(self.css, "\n", self.html, "\n", self.js)
+		print(self.css, "\n", self.html, "\n", self.js, self.data_file_name)
 
 	def html_test(self):
 		say_hello()
@@ -391,7 +397,7 @@ class ConfusionMatrix:
 	def display(self):
 		display(HTML(self.d3_source_html))
 
-		js_text = self.js_template.substitute({'conf_data_filepath': self.json_filepath})
+		js_text = self.js_template.substitute({'conf_data_filepath': self.data_file_name})
 
 		display(HTML(self.html_template.substitute({'css_text': self.css, 'js_text': js_text})))
 
